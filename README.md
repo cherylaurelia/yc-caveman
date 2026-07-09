@@ -13,12 +13,6 @@ for people who don't speak tech/business jargon.
 - **Filters**: category (B2B, Fintech, Healthcare, Government, …), batch (all 50 seasons,
   with quick links to the newest ones), search, sort. In caveman mode batches become
   seasons (Winter 2012 → cold season 2012).
-- **Caveman / Original toggle** — auto-translates all one-liner descriptions using
-  ~230 jargon-to-simple-words rules (`src/jargon.json`).
-- **55 hand-written "full story" profiles** for famous companies — Airbnb, Stripe,
-  DoorDash, Zepto, GovDash, VotingWorks… — each with founders + X/Twitter links and four
-  smoke signals: product, founder, competition, market opportunity.
-- **Dictionary tab** — 84 startup/tech terms, each with a caveman meaning and the real one.
 
 ## Files
 
