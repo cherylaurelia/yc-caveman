@@ -1,0 +1,512 @@
+[
+{
+"t": "Startup",
+"f": "A young company trying to grow very fast, usually with technology.",
+"c": "Baby tribe with big dream. Small now, wants to be mammoth soon.",
+"g": "Basics"
+},
+{
+"t": "Y Combinator (YC)",
+"f": "The most famous startup accelerator. Twice+ a year it funds a group of startups and coaches them for ~3 months.",
+"c": "Wise rich tribe. Gives baby tribes rocks + advice for small piece of tribe. Many famous tribes (Airbnb, Stripe) came from its cave.",
+"g": "Basics"
+},
+{
+"t": "Batch",
+"f": "One group of startups that goes through YC together, named by season and year — written as W26, X25, S25, F24.",
+"c": "One hunting season's group of baby tribes. W26 = the tribes that trained together in winter of 2026.",
+"g": "Basics"
+},
+{
+"t": "W26 / X25 / S25 / F24 (batch codes)",
+"f": "Shorthand for YC batches: W = Winter, X = Spring, S = Summer, F = Fall, plus the last two digits of the year. W26 means the Winter 2026 batch.",
+"c": "Little season marks. W = cold season, X = sprout season, S = hot season, F = leaf-fall season. W26 = cold season of 2026. Yes, X for spring is strange. YC picked it, not caveman.",
+"g": "Basics"
+},
+{
+"t": "Demo Day",
+"f": "The final day of a YC batch, when every startup pitches to a room full of investors.",
+"c": "Big show day. Every baby tribe stands on rock and yells 'give us rocks!' to crowd of rich humans.",
+"g": "Basics"
+},
+{
+"t": "Accelerator",
+"f": "A program that gives startups money, advice and connections for a few months in exchange for equity.",
+"c": "Training cave for baby tribes. Feed them, teach them, push them out stronger.",
+"g": "Basics"
+},
+{
+"t": "Founder",
+"f": "A person who starts a company.",
+"c": "Human who says 'me build new tribe' and actually does it.",
+"g": "Basics"
+},
+{
+"t": "Co-founder",
+"f": "A founder who starts the company together with others.",
+"c": "Hunt-buddy who starts tribe with you. Shares meat and pain.",
+"g": "Basics"
+},
+{
+"t": "CEO",
+"f": "Chief Executive Officer — the top decision-maker in a company.",
+"c": "Big chief. Decides where tribe hunts, answers when things go wrong.",
+"g": "Basics"
+},
+{
+"t": "CTO",
+"f": "Chief Technology Officer — leads the technical/engineering side.",
+"c": "Chief of tool-makers. Makes sure the magic actually works.",
+"g": "Basics"
+},
+{
+"t": "B2B",
+"f": "Business-to-business: a company that sells to other companies.",
+"c": "Tribe sells to other tribes, not to normal cave humans. Fewer buyers, bigger rocks each.",
+"g": "Business models"
+},
+{
+"t": "B2C",
+"f": "Business-to-consumer: a company that sells directly to regular people.",
+"c": "Tribe sells to normal cave humans. Many buyers, small rocks each.",
+"g": "Business models"
+},
+{
+"t": "B2G",
+"f": "Business-to-government: selling to government agencies.",
+"c": "Tribe sells to village chiefs. Slow to say yes, but chief rocks flow long time.",
+"g": "Business models"
+},
+{
+"t": "SaaS",
+"f": "Software as a Service — software you rent monthly instead of buying once.",
+"c": "Rent-a-tool. You no buy hammer, you pay small rocks every moon to keep using hammer. Tribe loves this: rocks come forever.",
+"g": "Business models"
+},
+{
+"t": "Marketplace",
+"f": "A platform connecting buyers and sellers, taking a cut of each trade.",
+"c": "Trading ground tribe builds. Hunters meet buyers there; tribe takes small piece of every trade.",
+"g": "Business models"
+},
+{
+"t": "Platform",
+"f": "A base product that other people build things or businesses on top of.",
+"c": "Big flat rock others build huts on. Own the rock = very strong.",
+"g": "Business models"
+},
+{
+"t": "Network effect",
+"f": "When a product gets more valuable as more people use it.",
+"c": "More humans at fire = warmer fire = even more humans come. Very strong magic, hard for enemy to copy.",
+"g": "Business models"
+},
+{
+"t": "Moat",
+"f": "A durable advantage that protects a company from competitors.",
+"c": "Deep water around your cave. Enemies see your meat but cannot reach it.",
+"g": "Business models"
+},
+{
+"t": "MVP",
+"f": "Minimum Viable Product — the simplest version you can ship to test if people want it.",
+"c": "Ugly first spear. Not pretty, but you can throw it TODAY and see if it hits anything.",
+"g": "Building product"
+},
+{
+"t": "Pivot",
+"f": "Changing a startup's core idea when the current one isn't working.",
+"c": "Hunt not working. Tribe turns and hunts different animal. No shame — Twitch and Instagram both did this.",
+"g": "Building product"
+},
+{
+"t": "Product-market fit",
+"f": "When a product clicks — people want it, use it, and tell others.",
+"c": "Spear finally fits hand perfectly. Humans grab product from you faster than you can make it. Before this: struggle. After this: hold on tight.",
+"g": "Building product"
+},
+{
+"t": "Traction",
+"f": "Evidence that people actually use and want your product (users, revenue, growth).",
+"c": "Footprints proving animals actually come to your trap. Investors want to see footprints, not stories.",
+"g": "Building product"
+},
+{
+"t": "Iterate",
+"f": "To improve a product in repeated small cycles.",
+"c": "Throw spear. See miss. Fix spear. Throw again. Repeat until mammoth falls.",
+"g": "Building product"
+},
+{
+"t": "Equity",
+"f": "Ownership shares in a company.",
+"c": "Piece of tribe. Own piece = when tribe gets rich, you get rich.",
+"g": "Raising money"
+},
+{
+"t": "Shares / Stock",
+"f": "Units of ownership in a company.",
+"c": "Tribe cut into many small pieces. Each piece = one share. More pieces you hold, more of tribe is yours.",
+"g": "Raising money"
+},
+{
+"t": "Vesting",
+"f": "Earning your equity gradually over time (usually 4 years).",
+"c": "You get tribe pieces slowly, moon by moon, so you no grab pieces and run away on day two.",
+"g": "Raising money"
+},
+{
+"t": "Valuation",
+"f": "What a company is judged to be worth.",
+"c": "What crowd thinks whole tribe is worth. Often guess. Sometimes very silly guess.",
+"g": "Raising money"
+},
+{
+"t": "Cap table",
+"f": "The list of who owns what percentage of a company.",
+"c": "Stone tablet listing who owns which piece of tribe. Keep tablet clean or big fights later.",
+"g": "Raising money"
+},
+{
+"t": "Seed round",
+"f": "The first significant money a startup raises.",
+"c": "First bag of rocks to plant seed. Buys food while tribe builds first spear.",
+"g": "Raising money"
+},
+{
+"t": "Series A / B / C",
+"f": "Later, bigger rounds of investment as the company grows.",
+"c": "Bigger and bigger rock bags. A = tribe shows promise. B = tribe growing. C = tribe getting huge. Each bag costs more tribe pieces.",
+"g": "Raising money"
+},
+{
+"t": "VC (Venture Capitalist)",
+"f": "An investor who puts money into risky startups hoping a few become huge.",
+"c": "Rich human who gives rocks to ten baby tribes knowing nine die. Prays tenth becomes mammoth and pays for all.",
+"g": "Raising money"
+},
+{
+"t": "Angel investor",
+"f": "An individual who invests their own money in very early startups.",
+"c": "Kind rich human who gives own rocks to baby tribe when nobody else believes.",
+"g": "Raising money"
+},
+{
+"t": "SAFE",
+"f": "Simple Agreement for Future Equity — a YC-invented way to invest quickly in early startups.",
+"c": "Rich human gives rocks NOW, gets tribe pieces LATER when price is decided. Less arguing, faster rocks. YC invented this.",
+"g": "Raising money"
+},
+{
+"t": "Term sheet",
+"f": "A document listing the terms of an investment offer.",
+"c": "Stone tablet where rich human writes offer: this many rocks, this many pieces. Read tablet CAREFULLY.",
+"g": "Raising money"
+},
+{
+"t": "Dilution",
+"f": "Your ownership percentage shrinking as new shares are issued to investors.",
+"c": "Every time tribe takes new rocks, your piece of tribe gets thinner. Same soup, more water.",
+"g": "Raising money"
+},
+{
+"t": "Bootstrapped",
+"f": "Building a company using only your own money and revenue, no investors.",
+"c": "Tribe grows on own hunted meat only. No rich humans, no bosses. Slower, but tribe keeps all pieces.",
+"g": "Raising money"
+},
+{
+"t": "Burn rate",
+"f": "How much money a company loses per month.",
+"c": "How fast tribe eats rock pile every moon. Eat too fast = tribe dies.",
+"g": "Money & metrics"
+},
+{
+"t": "Runway",
+"f": "How many months of money a company has left at its current burn rate.",
+"c": "How many moons until rock pile empty. Short runway = find rocks or die soon. Always know your runway.",
+"g": "Money & metrics"
+},
+{
+"t": "Revenue",
+"f": "Money coming in from customers.",
+"c": "Rocks flowing INTO cave from happy customers. Not same as profit!",
+"g": "Money & metrics"
+},
+{
+"t": "Profit",
+"f": "Money left over after paying all costs.",
+"c": "Rocks left after feeding whole tribe and fixing all spears. Many famous tribes have zero of this for long time.",
+"g": "Money & metrics"
+},
+{
+"t": "ARR / MRR",
+"f": "Annual/Monthly Recurring Revenue — predictable subscription income per year/month.",
+"c": "Rocks that come back every moon (MRR) or every year (ARR) without new hunting. Investors LOVE rocks that repeat.",
+"g": "Money & metrics"
+},
+{
+"t": "Gross margin",
+"f": "Percent of revenue left after direct costs of the product.",
+"c": "You sell berry for 10 rocks, berry costs 3 rocks to pick. Margin = 7 rocks of every 10. Software tribes keep almost all 10 — that's why everyone wants software tribe.",
+"g": "Money & metrics"
+},
+{
+"t": "Unit economics",
+"f": "Whether each individual sale/customer makes or loses money.",
+"c": "Does ONE trade make rocks or lose rocks? If every delivery loses 2 rocks, doing million deliveries = million times sadder.",
+"g": "Money & metrics"
+},
+{
+"t": "CAC",
+"f": "Customer Acquisition Cost — what it costs to win one new customer.",
+"c": "Rocks spent to catch one new customer. Shouting (ads) is expensive.",
+"g": "Money & metrics"
+},
+{
+"t": "LTV",
+"f": "Lifetime Value — total money one customer brings over their whole relationship.",
+"c": "All rocks one customer gives tribe over whole friendship. LTV must be much bigger than CAC or tribe slowly dies.",
+"g": "Money & metrics"
+},
+{
+"t": "Churn",
+"f": "The rate at which customers cancel or leave.",
+"c": "Customers leaking out of cave like water through cracked pot. High churn = filling pot forever, never full.",
+"g": "Money & metrics"
+},
+{
+"t": "Retention",
+"f": "How well a product keeps its users coming back.",
+"c": "Humans keep coming back to your fire. Best sign your fire is actually warm.",
+"g": "Money & metrics"
+},
+{
+"t": "Growth rate",
+"f": "How fast users or revenue are increasing, usually per week/month.",
+"c": "How fast tribe getting bigger. YC says: grow some % every week or something wrong.",
+"g": "Money & metrics"
+},
+{
+"t": "North star metric",
+"f": "The one number a company optimizes above all others.",
+"c": "One star tribe follows at night. Airbnb: nights slept. Pick wrong star, walk into swamp.",
+"g": "Money & metrics"
+},
+{
+"t": "Go-to-market (GTM)",
+"f": "The plan for how you'll reach and win customers.",
+"c": "Hunt plan: which animal, which forest, which spear, who throws.",
+"g": "Business models"
+},
+{
+"t": "Freemium",
+"f": "Free basic version, paid better version.",
+"c": "Free berries at cave door. Want SWEET berries? Pay rocks. Free berries bring crowd.",
+"g": "Business models"
+},
+{
+"t": "PLG (Product-led growth)",
+"f": "Growth driven by people trying and sharing the product itself, not salespeople.",
+"c": "Product so good it sells itself. Human uses tool, shows friend, friend wants tool. No shouty sales human needed.",
+"g": "Business models"
+},
+{
+"t": "Enterprise",
+"f": "Very large company customers.",
+"c": "Mammoth-sized customer tribe. Slow to catch (many meetings, many moons), but feeds village all winter.",
+"g": "Business models"
+},
+{
+"t": "SMB",
+"f": "Small and medium businesses as customers.",
+"c": "Many small customer tribes. Easy to catch, but each gives small rocks and some die often.",
+"g": "Business models"
+},
+{
+"t": "Vertical SaaS",
+"f": "Software built deeply for one specific industry.",
+"c": "Tool made for exactly ONE kind of tribe (only healers, only builders). Fits that hand perfectly.",
+"g": "Business models"
+},
+{
+"t": "Unicorn",
+"f": "A private startup valued at $1 billion or more.",
+"c": "Magic horse tribe worth billion+ rocks. Rare. Some are real magic, some just good story-tellers.",
+"g": "Basics"
+},
+{
+"t": "Exit",
+"f": "When founders/investors cash out — via acquisition or IPO.",
+"c": "Day tribe pieces turn into real rocks. Two doors: bigger tribe buys you, or you go public.",
+"g": "Exits"
+},
+{
+"t": "Acquisition",
+"f": "One company buying another.",
+"c": "Big tribe buys whole small tribe. Small chiefs get rocks, sometimes stay, often wander off after.",
+"g": "Exits"
+},
+{
+"t": "IPO",
+"f": "Initial Public Offering — listing shares on a stock market so anyone can buy them.",
+"c": "Tribe pieces sold in big public market. Any human can now own piece. Big drums, big scrutiny.",
+"g": "Exits"
+},
+{
+"t": "M&A",
+"f": "Mergers and Acquisitions — companies combining or buying each other.",
+"c": "Tribes eating tribes. Business circle of life.",
+"g": "Exits"
+},
+{
+"t": "Due diligence",
+"f": "Careful checking of a company before investing or buying it.",
+"c": "Rich human sniffs everything in your cave before giving rocks. Counts your bones twice.",
+"g": "Raising money"
+},
+{
+"t": "Pitch deck",
+"f": "The slide presentation founders use to raise money.",
+"c": "Story-drawings founders show rich humans. Cave paintings that say: big problem, our magic, give rocks.",
+"g": "Basics"
+},
+{
+"t": "Stealth mode",
+"f": "Building in secret before launching publicly.",
+"c": "Tribe builds spear hidden in dark cave so enemies no copy. Sometimes secret because spear not ready. Sometimes because spear boring.",
+"g": "Basics"
+},
+{
+"t": "Disrupt",
+"f": "To upend an old industry with a new, better/cheaper way.",
+"c": "New tribe with better spear makes old giant tribes look slow and silly. Old tribes very grumpy about this.",
+"g": "Building product"
+},
+{
+"t": "Deep tech / Hard tech",
+"f": "Startups built on hard science or engineering breakthroughs (rockets, biology, chips).",
+"c": "Not app — REAL hard magic: fire-rocks, space spears, cell factories. Takes many more moons and rocks, but enemy cannot copy in weekend.",
+"g": "Building product"
+},
+{
+"t": "API",
+"f": "Application Programming Interface — a way for programs to talk to each other.",
+"c": "Magic door between two computer things. App knocks on door with right words, door gives back what app needs. Stripe = famous door for money.",
+"g": "Tech words"
+},
+{
+"t": "Cloud",
+"f": "Computers you rent over the internet instead of owning.",
+"c": "Your stuff lives in someone else's giant computer cave (Amazon's, Google's). You rent space, reach it from anywhere.",
+"g": "Tech words"
+},
+{
+"t": "Server",
+"f": "A computer that runs websites and apps and serves them to users.",
+"c": "Strong tireless computer that never sleeps, handing out your website to every visitor all night.",
+"g": "Tech words"
+},
+{
+"t": "Backend / Frontend",
+"f": "Backend = the behind-the-scenes logic and data. Frontend = what users see and click.",
+"c": "Frontend = painted cave wall humans look at. Backend = hidden tunnels and fires making it all work.",
+"g": "Tech words"
+},
+{
+"t": "Database",
+"f": "Organized storage for an app's information.",
+"c": "Very organized bone pile. Every bone labeled, findable in blink. Lose database = tribe forgets everything.",
+"g": "Tech words"
+},
+{
+"t": "Open source",
+"f": "Software whose code is public — anyone can read, use, and improve it.",
+"c": "Tribe shows spear recipe to whole world free. Sounds crazy, but world helps sharpen spear, and tribe sells help and extras.",
+"g": "Tech words"
+},
+{
+"t": "Algorithm",
+"f": "A step-by-step recipe a computer follows.",
+"c": "Recipe for computer. 'The algorithm' deciding what videos you see = recipe some tribe wrote.",
+"g": "Tech words"
+},
+{
+"t": "AI (Artificial Intelligence)",
+"f": "Computer systems that do tasks that normally need human thinking.",
+"c": "Rock that thinks. Feed it million examples, it learns patterns — talks, draws, writes code. Not alive. Probably.",
+"g": "Tech words"
+},
+{
+"t": "LLM (Large Language Model)",
+"f": "AI trained on huge amounts of text to understand and generate language (like ChatGPT or Claude).",
+"c": "Giant word-brain that read almost whole internet. Now predicts next word so well it seems to think. You talking to one when you use ChatGPT.",
+"g": "Tech words"
+},
+{
+"t": "Machine learning",
+"f": "Teaching computers by showing examples instead of writing exact rules.",
+"c": "No tell computer rules. Show computer 10,000 pictures of wolf, computer learns 'wolf' by itself.",
+"g": "Tech words"
+},
+{
+"t": "Fintech",
+"f": "Financial technology — startups improving money services.",
+"c": "Shiny rock magic. Making paying, saving, borrowing less painful than old grumpy banks.",
+"g": "Business models"
+},
+{
+"t": "Crypto / Blockchain",
+"f": "Digital money and the shared public ledger technology behind it.",
+"c": "Internet shiny rocks, counted on public stone tablet thousand tribes hold copies of. No single chief controls tablet. Some think future, some think tulips.",
+"g": "Tech words"
+},
+{
+"t": "No-code",
+"f": "Tools that let people build software without programming.",
+"c": "Build app by dragging pictures with hands. No need speak computer language. Webflow = famous no-code tribe.",
+"g": "Building product"
+},
+{
+"t": "DevOps",
+"f": "The practice/tools of shipping and running software reliably.",
+"c": "Tribe craft of shipping code fast without setting village on fire. When village does catch fire — PagerDuty screams.",
+"g": "Tech words"
+},
+{
+"t": "Infrastructure",
+"f": "The underlying systems everything else runs on (servers, pipes, payments...).",
+"c": "Roads and water pipes of computer world. Boring, invisible, everything dies without it. Boring = great business.",
+"g": "Tech words"
+},
+{
+"t": "Analytics",
+"f": "Collecting and studying data to make decisions.",
+"c": "Counting footprints to know where animals go. Tribes that count, eat. Tribes that guess, starve.",
+"g": "Tech words"
+},
+{
+"t": "Dashboard",
+"f": "A screen summarizing important numbers at a glance.",
+"c": "One cave wall showing all tribe numbers at once. Chief looks, knows instantly if tribe healthy or on fire.",
+"g": "Tech words"
+},
+{
+"t": "Onboarding",
+"f": "The process of getting a new user or employee set up and comfortable.",
+"c": "Welcoming new human into cave: here fire, here spears, here where we keep snacks. Bad welcome = human leaves forever.",
+"g": "Building product"
+},
+{
+"t": "Scalable",
+"f": "Able to grow massively without costs growing as fast.",
+"c": "Feed 10 humans or 10 million humans with almost same effort. Software very scalable. Restaurant not.",
+"g": "Building product"
+},
+{
+"t": "Signal",
+"f": "Early evidence that something (product, founder, market) is promising.",
+"c": "Smoke on horizon telling you where fire is. Good founder signal, good product signal = investors run toward smoke.",
+"g": "Basics"
+}
+]

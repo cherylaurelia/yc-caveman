@@ -1,0 +1,1799 @@
+[
+{
+"name": "Airbnb",
+"story": "You have empty room in cave. Stranger visiting your village needs place to sleep. Airbnb lets stranger pay you shiny rocks to sleep in your cave. You make rocks from empty room, stranger sleeps cheaper than big sleep-hut (hotel). Everybody happy.",
+"founders": [
+{
+"n": "Brian Chesky",
+"t": "Founder/CEO",
+"x": "bchesky",
+"li": "https://www.linkedin.com/in/brianchesky/",
+"img": "7415ee0d3978ae738c766fc109863385303b066a.jpg"
+},
+{
+"n": "Nathan Blecharczyk",
+"t": "Founder/CTO",
+"x": "nathanblec",
+"li": "https://www.linkedin.com/in/blecharczyk/",
+"img": "43dd0e2c9396adccf8b4e456d806245942afc1ed.jpg"
+},
+{
+"n": "Joe Gebbia",
+"t": "Founder/CPO",
+"x": "jgebbia",
+"li": "https://www.linkedin.com/in/jgebbia/",
+"img": "8edd4b693f91d2a5507247fbd23259dbe88d4dba.jpg"
+}
+],
+"sig": {
+"p": "Millions of caves listed all over world. People trust sleeping in stranger cave now. Very proven.",
+"f": "Two art-school humans + one code human. When tribe almost starved, they sold cereal boxes to survive. Never give up.",
+"c": "Big old sleep-hut tribes (hotels) fight back, and copycats everywhere. But Airbnb name means 'stay in someone's home' now.",
+"m": "Every human who travels needs place to sleep. Hunting ground is whole planet."
+},
+"batch": "Winter 2009",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Reddit",
+"story": "Giant cave wall where any human can put story, picture, or question. Other humans point thumb up or thumb down. Best stories float to top of wall. Every topic has own little wall (subreddit) with own tribe.",
+"founders": [
+{
+"n": "Steve Huffman",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/shuffman56/",
+"img": "1a9bb2be307920d1d3fdec4eb96b1a912f945776.jpg"
+}
+],
+"sig": {
+"p": "One of most-visited walls on whole internet. Humans check it every day like campfire.",
+"f": "Two college friends, first tribe ever funded by YC. Steve came back years later as chief to fix things.",
+"c": "Many social walls fight for eyeballs (Facebook, X, TikTok). Reddit wins on real talk from real humans.",
+"m": "All humans want gather and yap about their favorite things. Attention = shiny rocks from ad tribes."
+},
+"batch": "Summer 2005",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Twitch",
+"story": "Watch other human play games on glowing rock, LIVE. You cheer in chat, throw shiny bits at player you like. Started as one man strapping camera to own head all day (Justin.tv). Amazon bought for almost 1 billion rocks.",
+"founders": [
+{
+"n": "Justin Kan",
+"t": "Founder",
+"x": "justinkan",
+"li": "https://www.linkedin.com/in/justinkan",
+"img": "63a2c1ec4e5a978f6024fb2c948e34f0e80f1c97.jpg"
+},
+{
+"n": "Emmett Shear",
+"t": "Founder",
+"x": "eshear",
+"li": "https://www.linkedin.com/in/emmettshear",
+"img": "d43573771e70de3ceae230e7d3420ddbd776bbe7.jpg"
+},
+{
+"n": "Kyle Vogt",
+"t": "Founder",
+"x": "kvogt",
+"li": "https://www.linkedin.com/in/kylevogt/",
+"img": "02bfc17bb6bdb80c6e86608a0da0d31a18fad0f2.jpg"
+}
+],
+"sig": {
+"p": "Millions watch every day. Streamers make living from it. Very sticky campfire.",
+"f": "Four scrappy humans who pivoted from weird head-camera idea to what users actually loved: game watching.",
+"c": "YouTube and other big tribes fight for streamers. Twitch still king of live game watching.",
+"m": "Games + watching = two of biggest human time-sinks, combined."
+},
+"batch": "Winter 2007",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Dropbox",
+"story": "Put your drawings and papers in magic folder. Folder appears on every glowing rock you own. Computer breaks? Drawings still safe in sky. Founder made it because he kept forgetting his little memory stick.",
+"founders": [
+{
+"n": "Drew Houston",
+"t": "Founder/CEO",
+"x": "drewhouston",
+"li": "https://www.linkedin.com/in/drewhouston/",
+"img": "5dcd89d032aa6a56e9c8acfd6c990c8e9f9f4689.jpg"
+},
+{
+"n": "Arash Ferdowsi",
+"t": "Founder",
+"x": "arashf",
+"li": "https://www.linkedin.com/in/arashferdowsi/",
+"img": "d06b1a3acf3585fc97b3bbaa8a4aadd51bd50541.jpg"
+}
+],
+"sig": {
+"p": "Hundreds of millions of humans used it. 'Just works' magic folder.",
+"f": "Drew showed demo video before product existed — huge waitlist appeared overnight. MIT humans who ship.",
+"c": "Google, Apple, Microsoft all give free storage now. Hard fight against giants who own the glowing rocks.",
+"m": "Every human and tribe has files. Everyone fears losing them."
+},
+"batch": "Summer 2007",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Heroku",
+"story": "Code builder makes app but does not want to carry heavy metal boxes (servers). Heroku carries boxes for builder. Builder pushes code with one command, Heroku makes it run on internet. Salesforce bought tribe.",
+"founders": [
+{
+"n": "Orion Henry",
+"t": "Founder",
+"img": "96936254e88be61350365c3efa5c1a49e74d4e86.jpg"
+},
+{
+"n": "James Lindenbaum",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/jameslindenbaum",
+"img": "bcde05adac67f6a4f8f131167ca7bf9cba199762.jpg"
+},
+{
+"n": "Adam Wiggins",
+"t": "Founder/CTO",
+"li": "https://www.linkedin.com/in/adam-wiggins-a7623845",
+"img": "e5bc505239f3da28242fdbd3366af39f4c60afe5.jpg"
+}
+],
+"sig": {
+"p": "Made 'git push' magic that whole industry copied. Builders loved it deeply.",
+"f": "Three builders who felt the server pain themselves and made it vanish.",
+"c": "Now every cloud giant (Amazon, Google) sells same magic. Heroku was first to make it simple.",
+"m": "Every app on internet needs boxes to run on. Endless."
+},
+"batch": "Winter 2008",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Stripe",
+"story": "Shop on internet needs to take shiny rocks from buyer's card. Used to be very hard — banks grumpy, much paperwork. Stripe gives shop seven magic lines of code, rocks flow easy. Now moves rocks for huge chunk of internet.",
+"founders": [
+{
+"n": "Patrick Collison",
+"t": "Founder/CEO",
+"x": "patrickc",
+"li": "https://www.linkedin.com/in/patrickcollison/",
+"img": "6f6304b166bb539a6d36c760d3c07ceb36bcf77e.jpg"
+},
+{
+"n": "John Collison",
+"t": "Founder/President",
+"x": "collision",
+"li": "https://www.linkedin.com/in/johnbcollison/",
+"img": "da7d48371e52712926a04985f20d0edc66d5a642.jpg"
+}
+],
+"sig": {
+"p": "Builders' favorite money pipe. Powers millions of shops, worth many tens of billions of rocks.",
+"f": "Two Irish brothers, sold first company as teenagers. Maybe most respected founder pair in valley.",
+"c": "PayPal, Adyen, banks — many hunt here. Stripe wins builders with clean magic words (good API).",
+"m": "All buying is moving to internet. Tiny slice of every payment = mountain of rocks."
+},
+"batch": "Summer 2009",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Mixpanel",
+"story": "Tribe makes app. Mixpanel counts what users touch, which buttons they press, where they get bored and leave. Tribe reads the counts, makes app better. Like footprint tracking, but for apps.",
+"founders": [
+{
+"n": "Suhail Doshi",
+"t": "Founder/CEO",
+"x": "suhail",
+"li": "https://www.linkedin.com/in/suhaildoshi/",
+"img": "d176baace999ea87f76362b31b226ac86041250b.jpg"
+},
+{
+"n": "Tim Trefren",
+"t": "Founder",
+"x": "ttrefren",
+"li": "https://linkedin.com/in/timtrefren",
+"img": "8c434afa1b4a010e62cf821387a6330ab8ea4694.jpg"
+}
+],
+"sig": {
+"p": "Thousands of app tribes use it every day to make decisions.",
+"f": "Suhail dropped out, built counting magic he wished he had at last job.",
+"c": "Amplitude, Google Analytics hunt same ground. Fight is fierce.",
+"m": "Every app tribe must understand users or die. Counting is not optional."
+},
+"batch": "Summer 2009",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "PagerDuty",
+"story": "When website falls down in middle of night, PagerDuty screams loud and wakes exactly the right fixer-human. Fixer jumps up, puts out fire before customers notice. No more whole tribe sleeping through disaster.",
+"founders": [
+{
+"n": "Alex Solomon",
+"t": "Founder/CTO",
+"li": "https://www.linkedin.com/in/alexsolo",
+"img": "4153b6619f8644f8eec9f49eb9b1e68299a466e6.jpg"
+}
+],
+"sig": {
+"p": "Standard alarm bone for internet tribes. Went public on stock market.",
+"f": "Three ex-Amazon builders who carried the night-alarm pager themselves. Knew the pain.",
+"c": "Opsgenie, Splunk and others sell alarms too. PagerDuty name became the word for it.",
+"m": "Every internet business breaks sometimes. Downtime = burning rocks."
+},
+"batch": "Summer 2010",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "medium"
+}
+},
+{
+"name": "Segment",
+"story": "App data scattered like bones all over cave floor. Segment gathers all bones into one clean pile, then sends pile to every counting tool tribe uses. Collect once, use everywhere. Twilio bought tribe for 3+ billion rocks.",
+"founders": [
+{
+"n": "Ilya Volodarsky",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/ilyavolodarsky/",
+"img": "34414e818e9deded4682e7116971440c259e6165.jpg"
+}
+],
+"sig": {
+"p": "Became the standard pipe for customer data before big exit.",
+"f": "MIT humans who failed at first idea, noticed tiny side-tool was the real treasure, pivoted hard.",
+"c": "Adobe, Salesforce and new data tools all want this pile of bones.",
+"m": "Every tribe drowns in customer data. Whoever organizes it wins."
+},
+"batch": "Summer 2011",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Codecademy",
+"story": "Free school on glowing rock that teaches humans to speak computer language. You learn by typing real code and seeing it work, not by watching boring scrolls. Tens of millions of humans learned here. Skillsoft bought tribe.",
+"founders": [
+{
+"n": "Zach Sims",
+"t": "Founder/CEO",
+"li": "https://www.linkedin.com/in/zacharysims",
+"img": "9bbbb8005d165a11e9b35e7decd81b58aee2a8a3.jpg"
+}
+],
+"sig": {
+"p": "50+ million learners. For many humans, this was their first line of code.",
+"f": "Zach dropped out of Columbia to build it. Believed anyone can learn code.",
+"c": "Many free learn-code places now (freeCodeCamp, YouTube). Being early built big name.",
+"m": "Whole world wants tech skills. Learning never stops."
+},
+"batch": "Summer 2011",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "DrChrono",
+"story": "Healer (doctor) drowning in paper. DrChrono puts patient papers, notes, appointments and bills on tablet. Healer spends time healing, not scribbling. Bought by EverCommerce tribe.",
+"founders": [
+{
+"n": "Michael Nusimow",
+"t": "Founder/CEO",
+"li": "https://linkedin.com/in/mnusimow",
+"img": "54c25c346531f4b0e7fab849b8b66ffe8b431d17.jpg"
+},
+{
+"n": "Daniel Kivatinos",
+"t": "Founder/COO",
+"x": "danielkivatinos",
+"li": "https://www.linkedin.com/in/kivatinos/",
+"img": "c5470edad26a70417bbb76253849ec572e80b3e5.jpg"
+}
+],
+"sig": {
+"p": "Thousands of healer offices ran on it. Early to put doctor tools on iPad.",
+"f": "Two engineers who saw healers suffer with stone-age paper systems.",
+"c": "Big old health record tribes (Epic, Cerner) are giants. DrChrono won small healer offices.",
+"m": "Health papers = giant slow industry begging to be made simple."
+},
+"batch": "Winter 2011",
+"v": {
+"p": "medium",
+"f": "medium",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Gusto",
+"story": "Small tribe must pay workers, count taxes, give health leaf (benefits). Very confusing, many forms, big headache. Gusto does all of it with few clicks. Small chief sleeps well, workers get paid right and on time.",
+"founders": [
+{
+"n": "Josh Reeves",
+"t": "Founder/CEO",
+"x": "joshuareeves",
+"li": "https://www.linkedin.com/in/joshuareeves/",
+"img": "f45b714f1a5a4d72b07eb1642b780e526c9e1968.jpg"
+},
+{
+"n": "Edward Kim",
+"t": "Founder/Empowering Gusto's Engineering Team",
+"x": "edawerd",
+"li": "https://www.linkedin.com/in/edawerd/",
+"img": "4ea8dd8ffb89ba6fdf88b43c6a412cbed6b5d304.jpg"
+},
+{
+"n": "Tomer London",
+"t": "Founder/; Empowering Gusto's Product and Design Teams",
+"x": "tomerlondon",
+"li": "https://www.linkedin.com/in/tomerlondon/",
+"img": "526023c6e05105d40ba9e67c80d3128d675cf72b.jpg"
+}
+],
+"sig": {
+"p": "Hundreds of thousands of small tribes run payday through Gusto.",
+"f": "Three Stanford engineers, patient chiefs. Tomer watched own father struggle with small-shop paperwork.",
+"c": "Old giant ADP, Paychex, and new Rippling all fight here.",
+"m": "Every small business in every land must pay people and taxes. Forever market."
+},
+"batch": "Winter 2012",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Amplitude",
+"story": "Shows tribe which parts of app users love and which parts users run away from. Not just 'how many came' but 'what did they do, did they come back'. Tribe uses this to build what humans actually want. Now public tribe.",
+"founders": [
+{
+"n": "Spenser Skates",
+"t": "Founder/CEO",
+"x": "spenserskates",
+"li": "https://www.linkedin.com/in/spenserskates",
+"img": "bcbefae92d73365640a3186ad9f706c02ed03be2.jpg"
+},
+{
+"n": "Curtis Liu",
+"t": "Founder/CTO",
+"li": "https://www.linkedin.com/in/jerry-klingenberger-15027791",
+"img": "4b660bebc8cb4d1ba31b0eefd6b9848d36a03861.jpg"
+}
+],
+"sig": {
+"p": "Big-name apps use it to steer product. Went public 2021.",
+"f": "Two MIT friends who first built voice app nobody wanted, kept the counting tool everyone did want.",
+"c": "Mixpanel, Google, Adobe hunt same ground.",
+"m": "Every product tribe wants to know: what makes users stay?"
+},
+"batch": "Winter 2012",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "PlanGrid",
+"story": "Builders on big building site used to carry giant paper drawings that got old fast. PlanGrid put drawings on tablet. Every builder sees newest drawing, nobody builds wall in wrong place. Autodesk bought tribe for 875 million rocks.",
+"founders": [
+{
+"n": "Tracy Young",
+"t": "Founder/CEO",
+"li": "https://www.linkedin.com/in/tracy-young-0a17441",
+"img": "060b674ec2e8f3f5866e499c81fb0ed8e9159cbb.jpg"
+},
+{
+"n": "Ralph Gootee",
+"t": "Founder/CTO",
+"li": "https://www.linkedin.com/in/ralphleon/",
+"img": "bac29356a4a58c52c323152620f112c7d441bd87.jpg"
+},
+{
+"n": "Ryan Sutton-Gee",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/rsuttong",
+"img": "18a7930a400f6a674dda85b8334aac03aa79d493.jpg"
+}
+],
+"sig": {
+"p": "Used on a million+ building projects before exit.",
+"f": "Tracy worked real construction sites — knew exactly which pain to kill.",
+"c": "Autodesk liked them so much it just bought them.",
+"m": "Construction is one of biggest, least-computered industries on earth."
+},
+"batch": "Winter 2012",
+"v": {
+"p": "high",
+"f": "high",
+"c": "high",
+"m": "high"
+}
+},
+{
+"name": "Wave",
+"story": "In Africa, sending shiny rocks to family used to cost many rocks in fees and long walks. Wave phone app sends money cheap and instant. Like magic money pouch in pocket, fees tiny.",
+"founders": [
+{
+"n": "Drew Durbin",
+"t": "Founder/CEO",
+"x": "drewdurbin",
+"li": "https://www.linkedin.com/in/drew-durbin-52517614/",
+"img": "13e85d1c53166f6c8640d323d32a619e9971802d.jpg"
+}
+],
+"sig": {
+"p": "Millions in Senegal and nearby lands use it as main money pouch.",
+"f": "Founders spent years building money tools for East Africa before Wave (Sendwave). Deep roots.",
+"c": "Old telecom money (M-Pesa style, Orange) is entrenched. Wave wins on tiny fees.",
+"m": "Hundreds of millions of humans have no good bank, but have phone."
+},
+"batch": "Winter 2012",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Coinbase",
+"story": "Internet shiny rocks (crypto like Bitcoin) very confusing and scary — easy to lose, easy to get robbed. Coinbase makes safe, simple place to buy, keep and sell them. Like trusted rock-keeper for weird new rocks. Now big public tribe.",
+"founders": [
+{
+"n": "Brian Armstrong",
+"t": "Founder/CEO",
+"x": "brian_armstrong",
+"li": "https://www.linkedin.com/in/barmstrong/",
+"img": "74b21feb7c1dcea504e64630f7dba9073fbb05d4.jpg"
+}
+],
+"sig": {
+"p": "Went public 2021. Most trusted crypto door in America.",
+"f": "Brian was Airbnb engineer who saw money move badly across borders. Calm chief in wild market.",
+"c": "Binance, Kraken, and now big banks enter. Trust + following rules is Coinbase moat.",
+"m": "If internet rocks become normal money rails, keeper of rocks wins huge."
+},
+"batch": "Summer 2012",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Instacart",
+"story": "You no want to walk to food cave. Tap phone, picker-human walks food cave for you, brings berries and meat to your door same day. Food cave sells more, you save time. Now public tribe.",
+"founders": [
+{
+"n": "Apoorva Mehta",
+"t": "Founder/Chairman & Founding CEO",
+"x": "apoorva_mehta",
+"li": "https://www.linkedin.com/in/apoorvamehta/",
+"img": "73f0d78e1e4cad961483cdfa67f7b79f95455d61.jpg"
+},
+{
+"n": "Brandon Leonardo",
+"t": "Founder",
+"x": "shiftb",
+"li": "https://www.linkedin.com/in/leonardo/",
+"img": "815e41c8aff8b5687ea58eef4d0d9b5e4e738ac0.jpg"
+},
+{
+"n": "Max Mullen",
+"t": "Founder",
+"x": "max",
+"li": "https://www.linkedin.com/in/maxmullen/",
+"img": "a3e8f4952d3f8837eb95af8e5fc0ce16be931bc0.jpg"
+}
+],
+"sig": {
+"p": "Delivers from most big food caves in America. Went public 2023.",
+"f": "Apoorva tried 20 startup ideas before this one. Got into YC late by sending partners a six-pack through the app.",
+"c": "Amazon, Walmart, DoorDash all deliver food now. Brutal ground.",
+"m": "Everyone eats. Groceries = trillion-rock river."
+},
+"batch": "Summer 2012",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Zapier",
+"story": "Makes your apps talk to each other without code. New customer fills form? Zapier auto-writes row in sheet, pings tribe chat, adds to email list. Robot does the boring copy-paste while you hunt.",
+"founders": [
+{
+"n": "Wade Foster",
+"t": "Founder",
+"x": "wadefoster",
+"li": "https://www.linkedin.com/in/wadefoster/",
+"img": "b94ed1de8e095ab31cf406a38a651338662d7e68.jpg"
+}
+],
+"sig": {
+"p": "Millions of humans automate chores with it. Grew big while staying profitable — rare.",
+"f": "Missouri humans, not valley insiders. Built quietly, never needed many investor rocks.",
+"c": "Make, n8n, and now AI agents want this job.",
+"m": "Every office human does boring copy-paste. All of it can be robot work."
+},
+"batch": "Summer 2012",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Clever",
+"story": "School uses many learning apps, small human forgets many passwords. Clever = one magic key that opens all school apps. Teacher stops wasting class time on login pain. Kahoot bought tribe.",
+"founders": [
+{
+"n": "Dan Carroll",
+"t": "Founder/CPO",
+"x": "https://Twitter.com/bytingtheapple",
+"li": "https://www.linkedin.com/in/danielcarroll/",
+"img": "49aa9cf1b0fd3b0cf42edf4bcc36649fc2df969a.jpg"
+},
+{
+"n": "Rafael Garcia",
+"t": "Co-founder & CTO",
+"x": "rfgarcia",
+"li": "https://www.linkedin.com/in/rafgarcia/",
+"img": "70c4b460440085cf060e26d5a87677498f80b80b.jpg"
+}
+],
+"sig": {
+"p": "Used by most of America's schools before exit. Teachers loved it.",
+"f": "Dan was teacher who lived the password pain. Team sold to schools fast — hard thing.",
+"c": "Google Classroom looms over all school tools.",
+"m": "Every school on earth going digital, all need one key."
+},
+"batch": "Summer 2012",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "medium"
+}
+},
+{
+"name": "Benchling",
+"story": "Science tribes making medicine still wrote experiments in paper notebooks. Benchling = smart notebook for DNA science. Find old experiment fast, share with whole lab, design DNA on screen. Big bio tribes pay lots.",
+"founders": [
+{
+"n": "Sajith Wickramasekara",
+"t": "Founder/CEO",
+"img": "ab629d48365346c6ee6623d9db5a41e61b422ee8.jpg"
+}
+],
+"sig": {
+"p": "Standard tool at many top bio labs and companies.",
+"f": "Two MIT scientists-turned-coders. Built for their own lab pain.",
+"c": "Old lab software is clunky — main enemy is paper and Excel.",
+"m": "Biology becoming engineering. Every DNA tribe needs modern tools."
+},
+"batch": "Summer 2012",
+"v": {
+"p": "high",
+"f": "high",
+"c": "high",
+"m": "medium"
+}
+},
+{
+"name": "DoorDash",
+"story": "Hungry but no want to hunt or cook. Tap phone, runner brings restaurant food to your cave. Restaurant sells more meat without more tables. Started by Stanford students delivering food themselves. Now huge public tribe.",
+"founders": [
+{
+"n": "Tony Xu",
+"t": "Founder/CEO",
+"x": "t_xu",
+"li": "https://www.linkedin.com/in/xutony",
+"img": "1d5915aa4f0da14e3b2e60fc1c3322fc42d58e20.jpg"
+},
+{
+"n": "Andy Fang",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/fangsterr",
+"img": "770656503cf9b58fad0796e7d154fa00279c3733.jpg"
+},
+{
+"n": "Stanley Tang",
+"t": "Founder",
+"x": "stanleytang",
+"li": "https://www.linkedin.com/in/stanleytang",
+"img": "90a4c921fcc51c82efbcea7449f418310c258201.jpg"
+}
+],
+"sig": {
+"p": "Biggest food delivery tribe in America. Public since 2020.",
+"f": "Tony grew up washing dishes in mama's restaurant. Founders did deliveries themselves at start.",
+"c": "Uber Eats and Grubhub fight hard. DoorDash won the suburbs first.",
+"m": "Everyone eats, every day. Convenience is forever."
+},
+"batch": "Summer 2013",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Webflow",
+"story": "Make real, fancy website by dragging things with hands — no computer language needed. Designer human becomes builder human without begging code tribe for help.",
+"founders": [
+{
+"n": "Sergie Magdalin",
+"t": "Founder/CPO",
+"img": "6edf565fbd1b5a3353055794143d6724de3c5a96.jpg"
+},
+{
+"n": "Vlad Magdalin",
+"t": "Founder",
+"x": "callmevlad",
+"li": "https://www.linkedin.com/in/vladmagdalin/",
+"img": "9b088263ca0fe40a00f1c87656c7ab4ba0839bf9.jpg"
+}
+],
+"sig": {
+"p": "Designers swear by it. Powers many many real business sites.",
+"f": "Vlad chased this exact idea for ten years and got rejected by YC before finally landing. Stubborn like mammoth.",
+"c": "Wix, Squarespace for easy sites; Figma for design. Webflow sits in middle: pro sites, no code.",
+"m": "Every business needs website; most humans can't code."
+},
+"batch": "Summer 2013",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Fivetran",
+"story": "Tribe's numbers live in many different caves (ads cave, sales cave, payment cave). Fivetran digs pipes so all numbers flow automatically into one big counting cave (data warehouse). No engineer sweat, pipes never clog.",
+"founders": [
+{
+"n": "Taylor Brown",
+"t": "Founder/COO",
+"li": "https://www.linkedin.com/in/taylorwcbrown",
+"img": "09daf1c815be78f9e0fb8b0fb8d6477895b8fbe3.jpg"
+},
+{
+"n": "George Fraser",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/george-fraser-a0219230",
+"img": "8f4e87039c444842f237f647d870ed322d56f5a8.jpg"
+}
+],
+"sig": {
+"p": "Thousands of data tribes rely on its pipes daily.",
+"f": "Started as different idea, pivoted when they saw everyone needed pipes, not tools.",
+"c": "Airbyte (open source) and cloud giants build pipes too.",
+"m": "Every company copies data between tools. Pipes are boring = perfect business."
+},
+"batch": "Winter 2013",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Flexport",
+"story": "Moving big boxes across ocean = paper mess, fax machines, phone calls, mystery. Where is my box? Nobody knows. Flexport puts whole shipping journey on one screen. Tribe sees box move from far land to warehouse.",
+"founders": [
+{
+"n": "Ryan Petersen",
+"t": "Founder/CEO",
+"x": "typesfast",
+"li": "https://www.linkedin.com/in/rpetersen",
+"img": "c431c0bba7e2aa7f3f6c2789d942fcf1e7a1a284.jpg"
+}
+],
+"sig": {
+"p": "Moves billions of rocks of goods. Was one of fastest-growing logistics tribes.",
+"f": "Ryan imported goods from China himself for years — knew every pain.",
+"c": "Giant old shipping brokers (Kuehne+Nagel etc.) still rule most of ocean.",
+"m": "Global trade = many trillions of rocks, still runs on fax."
+},
+"batch": "Winter 2014",
+"v": {
+"p": "medium",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Cruise",
+"story": "Car that drives itself. Human sits, eats berries, car does the work. Big car tribe GM bought them for about a billion rocks just 2 years after start. Later hit hard times and GM pulled the plug — cautionary bone too.",
+"founders": [
+{
+"n": "Kyle Vogt",
+"t": "Founder/CEO",
+"x": "kvogt",
+"li": "https://www.linkedin.com/in/kylevogt/",
+"img": "02bfc17bb6bdb80c6e86608a0da0d31a18fad0f2.jpg"
+},
+{
+"n": "Daniel Kan",
+"t": "Founder/COO",
+"li": "https://www.linkedin.com/in/danielkan",
+"img": "5892151ebb8056a8d73a27951ce9573e078f48d0.jpg"
+}
+],
+"sig": {
+"p": "Real robot taxis drove real streets in San Francisco for a while. Tech was real; business was hard.",
+"f": "Kyle built robots since childhood, already co-founded Twitch. Serial builder.",
+"c": "Waymo won this hunt so far. Tesla also stalks it.",
+"m": "All humans move around. Robot driving = one of biggest prizes ever."
+},
+"batch": "Winter 2014",
+"v": {
+"p": "medium",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Algolia",
+"story": "Adds lightning-fast magic search bar to any app or shop. You type few letters, right thing appears before you finish. Like librarian who reads your mind.",
+"founders": [
+{
+"n": "Nicolas Dessaigne",
+"t": "Founder/Board Member",
+"x": "dessaigne",
+"li": "https://www.linkedin.com/in/nicolasdessaigne/",
+"img": "2827f95ab4f63f6fc0195211105d03de01ff1381.jpg"
+},
+{
+"n": "Julien Lemoine",
+"t": "Founder/CTO",
+"x": "jlemoine_algo",
+"li": "https://linkedin.com/in/julienlemoine",
+"img": "809fa1d53ec6cfd70a60eac25fdd2f20fa9e7fb5.jpg"
+}
+],
+"sig": {
+"p": "Powers search in thousands of apps you already use.",
+"f": "Two French search nerds who obsessed over speed for years.",
+"c": "Elasticsearch free option, and now AI search upstarts.",
+"m": "Every app with lots of stuff needs search that doesn't stink."
+},
+"batch": "Winter 2014",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "medium"
+}
+},
+{
+"name": "Checkr",
+"story": "Tribe wants to hire human fast. Old background check = slow paper, many days. Checkr checks human's past with computers in hours. Gig tribes (Uber etc.) hire armies this way.",
+"founders": [
+{
+"n": "Daniel Yanisse",
+"t": "Founder/CEO",
+"x": "danielyanisse",
+"li": "https://www.linkedin.com/in/yanisse",
+"img": "4a69bf9a16f37ff9e354ad8c2a40a67635eb5b3d.jpg"
+},
+{
+"n": "Jonathan Perichon",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/jperichon/",
+"img": "2bafb7c9bede5ae714db6ea7cedb5a6ce90c29c8.jpg"
+}
+],
+"sig": {
+"p": "Checks millions of workers per year for big-name tribes.",
+"f": "Two French engineers who hit slow-check pain while building delivery startup.",
+"c": "Old check companies (Sterling, First Advantage) modernizing.",
+"m": "Everyone who hires must check. Gig work made it huge."
+},
+"batch": "Summer 2014",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "medium"
+}
+},
+{
+"name": "Ginkgo Bioworks",
+"story": "Teaches tiny living things (microbes) to make useful stuff — medicine parts, food smells, plant helpers. Like training invisible animals to be tiny factories. Went public with big splash.",
+"founders": [
+{
+"n": "Barry Canton",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/barry-canton-6826424/",
+"img": "86cf53b24f6331af0c101f2045d3d1d327254a1f.jpg"
+},
+{
+"n": "Austin Che",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/austinche/",
+"img": "5516bb47c5e3a5f345f21017de9d67aabb6f3e4a.jpg"
+},
+{
+"n": "Jason Kelly",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/jrkelly2/",
+"img": "7d94d08dc3027e2606ec4976b7ce1c5cc821214e.jpg"
+},
+{
+"n": "Tom Knight",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/tom-knight-2236324/",
+"img": "c9aaa9f4de1a521f283c43a981edf360a63392ff.jpg"
+},
+{
+"n": "Reshma Shetty",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/rpshetty/",
+"img": "f4c7e9020bc662b5d9404c6db42f6170fe543f72.jpg"
+}
+],
+"sig": {
+"p": "Built real robot labs (foundries). Public tribe, though rocks got rocky after.",
+"f": "MIT scientists including Tom Knight, grandfather of teaching-cells science.",
+"c": "Other bio-factory tribes (Zymergen died, others struggle). Hard science, long road.",
+"m": "If cells become factories, they remake medicine, food, everything."
+},
+"batch": "Summer 2014",
+"v": {
+"p": "medium",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Oklo",
+"story": "Builds small fire-rock (nuclear) power plants. Clean fire that never sleeps, no smoke. Wants to feed power-hungry AI data caves. Sam Altman helped take tribe public.",
+"founders": [
+{
+"n": "Jacob DeWitte",
+"t": "Founder/CEO",
+"li": "http://linkedin.com/in/jacob-dewitte-90062132",
+"img": "6147b6a370516ec8d93ef1234b50853dec23e50a.jpg"
+},
+{
+"n": "Caroline Cochran",
+"t": "Founder",
+"x": "caorilne",
+"li": "https://www.linkedin.com/in/caorilne",
+"img": "db9d311bc6421042f8b6d63bd74ddf14772adb4f.jpg"
+}
+],
+"sig": {
+"p": "Public tribe with famous backers. Plants not running yet — big promise, long build.",
+"f": "Two MIT nuclear scientists who never stopped believing in small reactors.",
+"c": "Other small-reactor tribes (NuScale, TerraPower) race too. Permits are slowest beast.",
+"m": "AI caves need mountains of clean power. Whoever delivers wins era."
+},
+"batch": "Summer 2014",
+"v": {
+"p": "low",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "GitLab",
+"story": "One place where code tribe plans work, writes code, tests it, and ships it. Whole tribe can live in different lands — GitLab itself has no office at all. Now public tribe.",
+"founders": [
+{
+"n": "Sid Sijbrandij",
+"t": "Founder/CEO",
+"x": "sytses",
+"li": "http://nl.linkedin.com/in/sijbrandij",
+"img": "8c20310cddada8df8d941d23e622e8924e8f1658.jpg"
+},
+{
+"n": "Dmytro Zaporozhets",
+"t": "Founder/CTO",
+"x": "dzaporozhets",
+"li": "https://www.linkedin.com/in/dzaporozhets",
+"img": "38d01aa63e1f80d279ecbf749ab64c6c5501e9ef.jpg"
+}
+],
+"sig": {
+"p": "Public since 2021. Millions of builders use it.",
+"f": "Dmitriy built it open-source from Ukraine; Sid turned it into business. All-remote pioneers.",
+"c": "GitHub (Microsoft's pet) is the giant rival.",
+"m": "All companies becoming software companies. All need code home."
+},
+"batch": "Winter 2015",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Razorpay",
+"story": "Shops in India need to take internet payments — cards, UPI, wallets, everything. Razorpay makes it one easy pipe, plus gives business banking and worker-pay tools. One of India's most valuable young tribes.",
+"founders": [
+{
+"n": "Harshil Mathur",
+"t": "Founder/CEO",
+"x": "harshilmathur",
+"li": "https://www.linkedin.com/pub/harshil-mathur/69/23a/127",
+"img": "b49464f5e793b8f6bd7b9bf571489df67252ac91.jpg"
+},
+{
+"n": "Shashank Kumar",
+"t": "Founder",
+"x": "shashank_kr",
+"li": "http://www.linkedin.com/in/kumarshashank",
+"img": "4bb41b492aebd9a1fb569c8e80c597ef82941171.jpg"
+}
+],
+"sig": {
+"p": "Powers payments for huge share of Indian internet shops.",
+"f": "Two IIT Roorkee friends who knocked on 100 bank doors until one said yes.",
+"c": "Paytm, PhonePe, Cashfree — India payments is battlefield.",
+"m": "India internet economy growing like bamboo. Every shop needs pipe."
+},
+"batch": "Winter 2015",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "EquipmentShare",
+"story": "Builder tribes rent big yellow machines (diggers, lifts). EquipmentShare rents machines AND puts smart tags on them — where is machine, is machine sick, who is using it. Construction chief stops losing rocks on idle metal. Now public.",
+"founders": [
+{
+"n": "Brad Siegler",
+"t": "Founder",
+"x": "BradSiegler",
+"li": "https://linkedin.com/in/bradsiegler",
+"img": "7f810da9e629906abd69b0b71575b3406301095b.jpg"
+},
+{
+"n": "Jeff Lowe",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/lowejeffrey",
+"img": "fd816543ed7cb43a668f1da76d67fdc5fe7acb38.jpg"
+},
+{
+"n": "Jabbok Schlacks",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/jabbok-schlacks-319a378a",
+"img": "e9dc986f853aadea7c81459da64420bfed819833.jpg"
+},
+{
+"n": "William Schlacks",
+"t": "Founder/President",
+"li": "https://www.linkedin.com/in/william-schlacks-49796016",
+"img": "469130c0e237f93bf0bffd008649707d73e96422.jpg"
+}
+],
+"sig": {
+"p": "Grew from Missouri to whole country. Went public 2025.",
+"f": "Two builder brothers who lived construction their whole lives. Not valley humans — real dirt humans.",
+"c": "United Rentals is the giant. Tech tags are the edge.",
+"m": "Construction machines = hundreds of billions sitting idle half the time."
+},
+"batch": "Winter 2015",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Remix",
+"story": "City chiefs used to plan bus routes with paper maps and guessing. Remix = map magic: drag route, instantly see which humans get bus, what it costs. Cities plan transit like playing game. Via bought tribe.",
+"founders": [
+{
+"n": "Sam Hashemi",
+"t": "Founder/CEO",
+"li": "https://www.linkedin.com/in/samhashemi",
+"img": "b9641e52a841f388a358fed8b082df0b3cfe5af1.jpg"
+},
+{
+"n": "Tiffany Chu",
+"t": "Founder/COO",
+"x": "tchu88",
+"li": "http://linkedin.com/in/tiffanychu",
+"img": "0204f82ead5fda811495a0f65ccdbfaec810e223.jpg"
+},
+{
+"n": "Daniel Getelman",
+"t": "Founder/CTO",
+"li": "http://www.linkedin.com/in/dangetelman/",
+"img": "25f57fc53ca04ddd7519d8cfa5d1db7f6fe28525.jpg"
+},
+{
+"n": "Danny Whalen",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/dannyrwhalen",
+"img": "d52cbae08d589d8e0c0fdd5eae367d2bf0a5eae4.jpg"
+}
+],
+"sig": {
+"p": "Hundreds of cities worldwide planned streets with it before exit.",
+"f": "Started as civic hack project (Code for America). Built for public good first, business followed.",
+"c": "Few fight for city-planning tools — quiet, uncrowded hunt.",
+"m": "Every city plans transit forever. Government rocks move slow but steady."
+},
+"batch": "Winter 2015",
+"v": {
+"p": "medium",
+"f": "medium",
+"c": "high",
+"m": "medium"
+}
+},
+{
+"name": "Paystack",
+"story": "Shops in Africa couldn't take internet payments without pain. Paystack fixed it for Nigeria and beyond — clean, simple, works. Stripe liked so much it bought whole tribe (~200 million rocks). Biggest African startup story of its time.",
+"founders": [
+{
+"n": "Shola Akinlade",
+"t": "Founder/CEO",
+"x": "shollsman",
+"li": "http://ng.linkedin.com/in/shollsman/en",
+"img": "45834902c04c8bcc2d21ac70c86236e7ad0c2cc5.jpg"
+},
+{
+"n": "Ezra Olubi",
+"t": "Founder/CTO",
+"x": "0x",
+"li": "https://ng.linkedin.com/in/cfezra",
+"img": "98fac9f0963ed3c72c4fa291cdaa88443d2802c1.jpg"
+}
+],
+"sig": {
+"p": "Powered big share of Nigerian internet payments before exit.",
+"f": "Shola built banking software for years first. First Nigerian tribe ever in YC.",
+"c": "Flutterwave and banks compete across Africa.",
+"m": "Africa's internet economy young and growing fast. Payments = front door."
+},
+"batch": "Winter 2016",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "NURX",
+"story": "Need medicine (birth control, tests) but no want awkward visit to healer hut. Answer questions on phone, real healer prescribes, medicine arrives in mailbox. Private, easy, cheap.",
+"founders": [
+{
+"n": "Edvard Engesaeth",
+"t": "Founder",
+"x": "Dreddielicious",
+"li": "https://www.linkedin.com/profile/view?id=254149970&trk=nav_responsive_tab_profile_pic",
+"img": "ea7cf728d4a6553d17483b0d25a096b4005db5a3.jpg"
+}
+],
+"sig": {
+"p": "Served hundreds of thousands of patients, mostly women, in many states.",
+"f": "Norwegian doctor + lawyer pair. Fought old rules to make telehealth normal.",
+"c": "Hims/Hers, Ro and many telehealth tribes now.",
+"m": "Healthcare by phone became normal after big sickness (Covid). Huge shift."
+},
+"batch": "Winter 2016",
+"v": {
+"p": "medium",
+"f": "medium",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Truebill",
+"story": "App looks at your spending, finds sneaky subscriptions quietly eating rocks every moon, helps cancel them and lower bills. Rocket tribe bought for 1.3 billion rocks. Now called Rocket Money.",
+"founders": [
+{
+"n": "Yahya Mokhtarzada",
+"t": "Founder/CEO",
+"li": "https://www.linkedin.com/in/yahyamokhtarzada",
+"img": "621b18d72fa34f49634d2bf15358f3c5aba30880.jpg"
+},
+{
+"n": "Haroon Mokhtarzada",
+"t": "Founder",
+"x": "haroon",
+"li": "https://www.linkedin.com/in/haroonmokhtarzada/",
+"img": "f9040e05727c6b4570066aafc642804532a5e7d2.jpg"
+},
+{
+"n": "Idris Mokhtarzada",
+"t": "Founder/CTO",
+"x": "idris",
+"li": "https://www.linkedin.com/in/idrismokhtarzada",
+"img": "5ac6cf73b9809f3d2a0db4e442de369dfe5317da.jpg"
+}
+],
+"sig": {
+"p": "Millions of humans saved real rocks. Big exit 2021.",
+"f": "Three brothers who already built and sold website tribe (Webs) before.",
+"c": "Mint (dead now), Copilot, banks' own apps.",
+"m": "Every human leaks rocks on forgotten subscriptions. Universal pain."
+},
+"batch": "Winter 2016",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Scale AI",
+"story": "AI is like baby brain — needs millions of labeled examples to learn (this is car, this is tree). Scale organizes armies of humans + robots to label mountains of pictures and words. AI tribes pay big rocks. Meta later bought half the tribe for 14+ billion.",
+"founders": [
+{
+"n": "Alexandr Wang",
+"t": "Founder/CEO",
+"x": "alexandr_wang",
+"li": "https://www.linkedin.com/in/alexandrwang",
+"img": "f98055a86c3c19a54f3fdd488ed3a4f88c8a0ec5.jpg"
+}
+],
+"sig": {
+"p": "Fed training food to biggest AI labs during AI gold rush.",
+"f": "Alexandr left MIT at 19, became one of youngest billionaires ever.",
+"c": "Surge AI, Labelbox, and AI labs building own labeling.",
+"m": "Every AI model is hungry. Data food never stops."
+},
+"batch": "Summer 2016",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Meesho",
+"story": "In India, normal human (often housewife) sells things to friends on WhatsApp. Meesho gives them whole shop in pocket — no need to own stock, Meesho handles goods and delivery. Small human becomes shopkeeper. Now public.",
+"founders": [
+{
+"n": "Vidit Aatrey",
+"t": "Founder/CEO",
+"x": "viditaatrey",
+"li": "https://www.linkedin.com/in/vidit-aatrey-a3639120",
+"img": "efe5776e3791cd5a2cf5cd0bbf78a0c0819ead6a.jpg"
+},
+{
+"n": "Sanjeev Barnwal",
+"t": "Founder/CTO",
+"li": "https://www.linkedin.com/in/sanjeev-barnwal-4099341b",
+"img": "c180416726fe8a9ec1095eab2cfad50f1f276458.jpg"
+}
+],
+"sig": {
+"p": "Hundreds of millions of orders. Went public in India 2025.",
+"f": "Two IIT Delhi friends who pivoted many times until model clicked.",
+"c": "Amazon and Flipkart rule Indian shopping; Meesho wins small towns with cheap goods.",
+"m": "Next 500 million Indian shoppers coming online. Gigantic."
+},
+"batch": "Summer 2016",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Rappi",
+"story": "Latin America super-app: brings food, groceries, medicine, even cash from bank machine — almost anything, fast. One orange app for whole daily life. First Colombian unicorn.",
+"founders": [
+{
+"n": "Simon Borrero",
+"t": "Founder/CEO",
+"li": "https://co.linkedin.com/in/simonborrero",
+"img": "7ce14cc0ff3ad1d967559b3c6189ffe21202e321.jpg"
+},
+{
+"n": "Sebastian Mejia",
+"t": "Founder",
+"x": "mejiasebas",
+"li": "https://www.linkedin.com/in/sebastianmejia",
+"img": "b9484114348a2dd4b3914e3917a5943b5dcf47da.jpg"
+},
+{
+"n": "Felipe Villamarin",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/felipe-villamarin-85518161",
+"img": "cb2124cc19bb3a7dc4925afde6479be38bf16afc.jpg"
+}
+],
+"sig": {
+"p": "Operates across many LatAm lands, millions of orders.",
+"f": "Colombian founders who out-hustled everyone — early days they delivered orders themselves on bikes.",
+"c": "iFood, Uber Eats, Mercado Libre fight across region.",
+"m": "LatAm delivery + fintech both exploding at once."
+},
+"batch": "Winter 2016",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Brex",
+"story": "New startup can't get company spending card — old banks say 'no history, no card'. Brex looked at startup's investor rocks instead and gave smart card + spending tools. Later grew into full spend system for big tribes too.",
+"founders": [
+{
+"n": "Henrique Dubugras",
+"t": "Founder/CEO",
+"x": "hdubugras",
+"li": "https://br.linkedin.com/in/henriquedubugras",
+"img": "1e61b2b8be0fc201630620a5df8630e858afa8f9.jpg"
+},
+{
+"n": "Pedro Franceschi",
+"t": "Founder",
+"x": "pedroh96",
+"li": "https://www.linkedin.com/in/pfranceschi",
+"img": "1945b735c5504ac4c7626c2fd41e9063d1fae75a.jpg"
+}
+],
+"sig": {
+"p": "Card of choice for huge share of startups.",
+"f": "Brazilian pair built payments company as teenagers before this. Money-pipe natives.",
+"c": "Ramp is fierce rival, banks waking up.",
+"m": "Every company spends rocks and hates expense reports."
+},
+"batch": "Winter 2017",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Rippling",
+"story": "One place to run everything about workers: pay, health leaf, laptop, app access. Hire new human → click once → payroll set, laptop shipped, accounts made. Fire... uh, 'let go' human → click once → all locked.",
+"founders": [
+{
+"n": "Parker Conrad",
+"t": "Founder/CEO",
+"x": "parkerconrad",
+"li": "https://www.linkedin.com/in/parkerconrad",
+"img": "823df708b254ab14b09234fe18350f35c8321e11.jpg"
+},
+{
+"n": "Prasanna S",
+"t": "Founder/CTO",
+"x": "myprasanna",
+"li": "https://www.linkedin.com/in/myprasanna",
+"img": "9327a97d795ee8dd97c1c27aea5ee5db90d8800d.jpg"
+}
+],
+"sig": {
+"p": "One of fastest-growing work-software tribes ever. Worth many billions.",
+"f": "Parker's first tribe (Zenefits) crashed hard; he came back and built it right. Revenge arc.",
+"c": "Gusto, Deel, Workday — worker software is crowded battlefield.",
+"m": "Every company manages workers. One system to rule all = huge prize."
+},
+"batch": "Winter 2017",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Retool",
+"story": "Every tribe needs boring inside-tools: look up customer, refund order, approve thing. Building them from scratch wastes moons. Retool = snap-together blocks, build inside-tool in one afternoon.",
+"founders": [
+{
+"n": "David Hsu",
+"t": "Founder/CEO",
+"x": "dvdhsu",
+"li": "https://www.linkedin.com/in/dvdhsu",
+"img": "fa55fbd31ac6d56bcfa9ba17c5fc27ba462facb6.jpg"
+}
+],
+"sig": {
+"p": "Tens of thousands of tribes build inside-tools on it.",
+"f": "David built it solo-ish out of Oxford, grew quietly without hype.",
+"c": "Low-code crowd + now AI writes tools from words. Retool adding AI too.",
+"m": "Half of all software ever written is boring internal tools."
+},
+"batch": "Winter 2017",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Faire",
+"story": "Small shop wants cool things to sell but can't fly to big trade shows. Faire = online market where small shops discover goods from thousands of makers, try them, send back what doesn't sell. Small shop fights big-box store better.",
+"founders": [
+{
+"n": "Max Rhodes",
+"t": "Founder/CEO",
+"li": "https://www.linkedin.com/in/max-rhodes",
+"img": "171552f63ff5c060e656b16a59db7252198b0821.jpg"
+},
+{
+"n": "Marcelo Cortes",
+"t": "Founder/CTO",
+"li": "https://www.linkedin.com/in/marcelo-cortes-b34317",
+"img": "fbc5a12e9bc83b2c3fd1aa9a88a50d468c10f635.jpg"
+},
+{
+"n": "Daniele Perito",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/danieleperito",
+"img": "a552c779ce7a59ab51e6d181e02cfc8c1e255a52.jpg"
+}
+],
+"sig": {
+"p": "Hundreds of thousands of shops and brands trade on it.",
+"f": "Ex-Square humans who understood small sellers deeply.",
+"c": "Old trade shows, Alibaba, Amazon wholesale.",
+"m": "Small retail worldwide = enormous, still offline mostly."
+},
+"batch": "Winter 2017",
+"v": {
+"p": "high",
+"f": "high",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Flock Safety",
+"story": "Cameras that read car plates in neighborhoods and towns. Stolen car drives past, police get instant ping. Many villages use it; helps solve many crimes per day. Some humans worry about too many eyes — big debate.",
+"founders": [
+{
+"n": "Garrett Langley",
+"t": "Founder/CEO",
+"li": "https://www.linkedin.com/in/glangley/",
+"img": "983f01c56e0729538530748ff3bcd479b2664eb8.jpg"
+},
+{
+"n": "Matt Feury",
+"t": "Founder/CTO",
+"li": "https://www.linkedin.com/in/matt-feury-a105a339/",
+"img": "05d3497ff044fec95a23302569f629c39e87a671.jpg"
+}
+],
+"sig": {
+"p": "Thousands of communities + police tribes use it. Growing very fast.",
+"f": "Georgia Tech engineers who started with one neighborhood's break-in problem.",
+"c": "Axon (taser tribe) is giant partner-rival in police tech.",
+"m": "Public safety spending is huge and cities want tech now."
+},
+"batch": "Summer 2017",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Modern Fertility",
+"story": "Woman wants to know about own fertility without 1,500-rock clinic bill. Founder paid that bill herself, got mad, built home test with numbers explained simply. Know your body, plan your life. Ro tribe bought.",
+"founders": [
+{
+"n": "Afton Vechery",
+"t": "Founder/CEO",
+"li": "https://www.linkedin.com/in/aftonv/",
+"img": "75a340efbbd1519d90542ea470bcf4a389874dfa.jpg"
+},
+{
+"n": "Carly Leahy",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/carlyleahy",
+"img": "b47084303a32e774541bcf9133c5167b91fa0289.jpg"
+}
+],
+"sig": {
+"p": "Made fertility info affordable for many thousands before exit.",
+"f": "Afton lived the exact pain and turned anger into product.",
+"c": "Clinics and new women's-health tribes.",
+"m": "Half of humans, biggest life decisions, barely served by tech."
+},
+"batch": "Summer 2017",
+"v": {
+"p": "medium",
+"f": "high",
+"c": "medium",
+"m": "medium"
+}
+},
+{
+"name": "Vanta",
+"story": "Big customer asks startup: 'Is your tribe safe with our data? Show SOC 2 paper.' Getting paper used to take moons of screenshots. Vanta robot watches your systems, collects proof, makes audit fast. Startups close big deals sooner.",
+"founders": [
+{
+"n": "Christina Cacioppo",
+"t": "Founder/CEO",
+"x": "christinacaci",
+"li": "http://linkedin.com/in/ccacioppo",
+"img": "1a2bfa978eb234d0623925edeecaf501e3660f63.jpg"
+}
+],
+"sig": {
+"p": "Thousands of tribes got their safety papers through it. Category leader.",
+"f": "Christina built it after seeing security papers block deals at Dropbox.",
+"c": "Drata chases hard. Race is on.",
+"m": "Every software tribe selling to big tribes needs these papers. Rules only grow."
+},
+"batch": "Winter 2018",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Replit",
+"story": "Write and run code right in browser — zero setup, works on school Chromebook. Now AI agent inside writes whole app from your words. Kid in any land can build and ship same day.",
+"founders": [
+{
+"n": "Haya Abdalla",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/haya-odeh-b0725928",
+"img": "c40460890d1512dcad6880d2febec2b99d2064af.jpg"
+},
+{
+"n": "Amjad Masad",
+"t": "Founder",
+"x": "amasad",
+"li": "https://www.linkedin.com/in/amjadmasad",
+"img": "2a663b1f59151c44dba2255074ac5736fc5c8b97.jpg"
+}
+],
+"sig": {
+"p": "Tens of millions of accounts; AI app-building made it boom again.",
+"f": "Amjad grew up coding in Jordan on slow computers — built the tool he wished for. Rejected by YC twice before yes.",
+"c": "Cursor, Lovable, GitHub all race in AI coding.",
+"m": "AI turns everyone into builder. Billion new coders coming."
+},
+"batch": "Winter 2018",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Groww",
+"story": "Young Indian humans want to invest rocks in funds and stocks but old broker apps scary and full of jargon. Groww makes investing simple like ordering food. Now public and one of India's biggest brokers.",
+"founders": [
+{
+"n": "Lalit Keshre",
+"t": "Founder/CEO",
+"li": "https://www.linkedin.com/in/lalitkeshre",
+"img": "0fd629971f3c720c9b296b817b2b7c2942f09100.jpg"
+},
+{
+"n": "Ishan Bansal",
+"t": "Founder",
+"li": "https://in.linkedin.com/in/ishan-bansal-8678b216",
+"img": "f3d78de145bb51623e781382a8b7adb03192df13.jpg"
+},
+{
+"n": "Harsh Jain",
+"t": "Founder/COO",
+"li": "https://in.linkedin.com/in/harshjainiitd",
+"img": "975e9b08c58872b335bbb8b9fd60f008a2f75f9d.jpg"
+},
+{
+"n": "Neeraj Singh",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/neeraj-singh-a910819",
+"img": "7671e5128c66c7bc2e760c14f94bda2526e3dd4c.jpg"
+}
+],
+"sig": {
+"p": "Tens of millions of investors. Went public 2025.",
+"f": "Four ex-Flipkart humans who bet young India would invest from phone.",
+"c": "Zerodha is the other giant. Fight of the decade.",
+"m": "India's middle class just starting to invest. River becoming ocean."
+},
+"batch": "Winter 2018",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "Biobot Analytics",
+"story": "Looks at village poop water (sewage) to learn which sickness is spreading — before hospitals even see sick humans. Poop does not lie. Became famous during Covid for tracking virus city by city.",
+"founders": [
+{
+"n": "Newsha Ghaeli",
+"t": "Cofounder & President",
+"li": "https://www.linkedin.com/in/newshaghaeli/",
+"img": "d2aa4bcf5a05252ac4443cf91bf0954b666ee12b.jpg"
+},
+{
+"n": "Mariana Matus",
+"t": "Founder",
+"x": "MarianaMatusG",
+"li": "https://www.linkedin.com/in/marianamatus/",
+"img": "f9f94d0dbba7be65644c64db62025ad15338a9f8.jpg"
+}
+],
+"sig": {
+"p": "Tracked Covid for huge chunk of America. Proved poop-science works.",
+"f": "Two MIT scientists (biology + architecture) who believed in sewage when everyone laughed.",
+"c": "Verily and government labs entered after Covid showed the way.",
+"m": "Every future outbreak needs early warning. Governments now believers."
+},
+"batch": "Winter 2018",
+"v": {
+"p": "medium",
+"f": "high",
+"c": "high",
+"m": "medium"
+}
+},
+{
+"name": "Deel",
+"story": "Tribe wants to hire smart human who lives in far land. Laws, contracts, taxes = nightmare. Deel handles pay and law-stuff in 100+ lands. Hire anyone anywhere, Deel does paperwork. Boomed when remote work took over world.",
+"founders": [
+{
+"n": "Alex Bouaziz",
+"t": "Founder/CEO",
+"x": "bouazizalex",
+"li": "https://www.linkedin.com/in/alexbouaziz/",
+"img": "766d1d8510a838c331c7c5c9df9a4ee5402ceab4.jpg"
+},
+{
+"n": "Shuo Wang",
+"t": "Founder/CRO",
+"x": "copernicussw",
+"li": "https://www.linkedin.com/in/shuo-wang-848a8956/",
+"img": "e20e645c0239b91c23c39781f063d6c128ce20b5.jpg"
+}
+],
+"sig": {
+"p": "One of fastest tribes ever to reach 100 million ARR. Worth many billions.",
+"f": "MIT humans who caught the remote-work wave at perfect moment and out-executed everyone.",
+"c": "Rippling and Remote fight hard (real lawsuits, real drama).",
+"m": "Work went borderless. Someone must handle the borders."
+},
+"batch": "Winter 2019",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "VotingWorks",
+"story": "Nonprofit tribe building open voting machines — any human can read the code and check machine is honest. Trust through openness, cheaper than old secret machines. Democracy infrastructure, not rock-chasing.",
+"founders": [
+{
+"n": "Ben Adida",
+"t": "Founder",
+"x": "benadida",
+"li": "https://www.linkedin.com/in/benadida/",
+"img": "27b82e8c5304b0530ebae5b9b18a9d639b354163.jpg"
+}
+],
+"sig": {
+"p": "Real elections in real counties run on it. Audit tool used widely.",
+"f": "Ben spent whole career on voting security (MIT PhD, Mozilla). This is his life quest.",
+"c": "Two old giants (ES&S, Dominion) own the market with closed machines.",
+"m": "Not about rocks — about whole village trusting the count. Priceless."
+},
+"batch": "Winter 2019",
+"v": {
+"p": "medium",
+"f": "high",
+"c": "low",
+"m": "medium"
+}
+},
+{
+"name": "Recidiviz",
+"story": "Nonprofit gives justice chiefs clear numbers: who can safely go home early, which programs actually stop humans from returning to cage. States use it, prison numbers drop, village stays safe. Data for mercy.",
+"founders": [
+{
+"n": "Joshua Essex",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/joshuaessex/",
+"img": "0f3c4526fb93438c0263b56f5a918b149c9b16bd.jpg"
+},
+{
+"n": "Clementine Jacoby",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/clementine-jacoby-50578483/",
+"img": "2689e843699ca3d39e0c837d323c559c22601918.jpg"
+}
+],
+"sig": {
+"p": "Many states use it; helped many thousands safely leave system.",
+"f": "Clementine left Google after seeing family member stuck in system. Personal quest.",
+"c": "Old government software tribes move slow — main enemy is inertia.",
+"m": "America cages more humans than any land. Fixing it = huge human win."
+},
+"batch": "Summer 2019",
+"v": {
+"p": "medium",
+"f": "high",
+"c": "high",
+"m": "medium"
+}
+},
+{
+"name": "Whatnot",
+"story": "Live TV shopping, but in app and fun. Seller shows trading cards, sneakers, comics LIVE; buyers bid fast-fast before timer ends. Shopping becomes game show with friends. Biggest live-shopping tribe in America.",
+"founders": [
+{
+"n": "Grant LaFontaine",
+"t": "Founder/CEO",
+"li": "https://www.linkedin.com/in/grantlafontaine/",
+"img": "229ca8484ca469ae296ad77c8d56a424f5be0004.jpg"
+},
+{
+"n": "Logan Head",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/logan-head-b0866615",
+"img": "63e88e25028b56e768af206ee2d783e0ff8a8c27.jpg"
+}
+],
+"sig": {
+"p": "Billions of rocks in stuff sold yearly. Growing wild.",
+"f": "Two collector nerds (ex-Facebook, ex-GOAT) who built for own hobby tribe first.",
+"c": "TikTok Shop invading; eBay watching old throne wobble.",
+"m": "Live shopping is giant in Asia. America just starting to copy."
+},
+"batch": "Winter 2020",
+"v": {
+"p": "high",
+"f": "medium",
+"c": "medium",
+"m": "high"
+}
+},
+{
+"name": "Zepto",
+"story": "In India, tap phone → groceries at your door in 10 minutes. Tiny hidden mini-warehouses (dark stores) everywhere make impossible speed possible. Two 19-year-old founders dropped out of Stanford to build it.",
+"founders": [
+{
+"n": "Aadit Palicha",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/aadit-palicha/",
+"img": "c33972aa4f265eafda47f54a6588c0f17975d969.jpg"
+},
+{
+"n": "Kaivalya Vohra",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/kaivalya-vohra/",
+"img": "b74433ff96f29219c1b983e08d8abd5321c16180.jpg"
+}
+],
+"sig": {
+"p": "Billions in yearly sales within few years. Speed = drug, users hooked.",
+"f": "Teen founders out-executed giants at ages when most humans study for exams.",
+"c": "Blinkit and Swiggy Instamart in three-way war. Burns many rocks.",
+"m": "Indian city humans adopting instant everything. Massive if economics work."
+},
+"batch": "Winter 2021",
+"v": {
+"p": "high",
+"f": "high",
+"c": "low",
+"m": "high"
+}
+},
+{
+"name": "GovDash",
+"story": "Selling to government = mountain of paper (RFPs) written in tribal legal language. GovDash AI reads mountain, finds good hunts, helps write winning answer. Small companies can finally compete for government rocks.",
+"founders": [
+{
+"n": "Sean Doherty",
+"t": "Founder",
+"x": "seandoher1y",
+"li": "https://www.linkedin.com/in/sean-m-doherty/",
+"img": "2dee84648d791059a3a99694cd751dccf2f6d30f.jpg"
+},
+{
+"n": "Timothy Goltser",
+"t": "Founder",
+"img": "b850e2b2acef0861f73f791e727bbcacb2bf2a34.jpg"
+},
+{
+"n": "Curtis Mason",
+"t": "Founder",
+"li": "https://www.linkedin.com/in/curtis-mason-729376156/",
+"img": "47f7da014855e75411cfea5a018af780cad9f033.jpg"
+}
+],
+"sig": {
+"p": "Contractors win real contracts with it. AI arrived at perfect time for paper mountains.",
+"f": "Builder trio who picked unsexy giant market while others chased shiny things.",
+"c": "GovEagle, Usul and others smell same opportunity.",
+"m": "US government buys 700+ billion rocks of stuff yearly. Biggest customer on earth."
+},
+"batch": "Winter 2022",
+"v": {
+"p": "medium",
+"f": "medium",
+"c": "medium",
+"m": "high"
+}
+}
+]

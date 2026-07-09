@@ -1,0 +1,807 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>A Caveman's Guide to YC Startups</title>
+<style>
+:root{
+  --bg:#FCFAF7; --ink:#23201B; --mut:#8A8171; --line:#E8E3D9; --acc:#A64B21; --soft:#F4F0E8;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:15px; line-height:1.55;
+}
+.serif{font-family:"Iowan Old Style",Palatino,"Palatino Linotype",Charter,Georgia,serif}
+a{color:var(--acc);text-decoration-thickness:1px;text-underline-offset:2px}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:none;padding:0}
+input,select{font:inherit;color:var(--ink)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px}
+.label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+
+/* ---------- masthead ---------- */
+header{padding:56px 0 0}
+.masthead h1{font-size:clamp(26px,4vw,34px);font-weight:600;margin:0;line-height:1.15;letter-spacing:-.01em}
+.masthead p{color:var(--mut);margin:10px 0 0;font-size:15px;max-width:52ch}
+nav{display:flex;gap:26px;margin-top:36px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:20;padding-top:10px}
+.tab{padding:0 0 12px;font-size:14px;color:var(--mut);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab.on{color:var(--ink);border-bottom-color:var(--acc)}
+
+/* ---------- controls ---------- */
+.controls{display:flex;flex-direction:column;gap:16px;margin:28px 0 4px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+input[type=search]{
+  background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:8px 12px;font-size:13.5px;
+  flex:1;min-width:200px;
+}
+input[type=search]::placeholder{color:var(--mut)}
+input[type=search]:hover{border-color:#D5CDBE}
+.fbar{display:flex;gap:10px 26px;flex-wrap:wrap;align-items:center}
+.fgroup{display:inline-flex;align-items:center;gap:8px}
+select{
+  -webkit-appearance:none;appearance:none;border:none;background-color:transparent;
+  color:var(--ink);font-size:13.5px;padding:2px 17px 2px 0;cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%238A8171' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 2px center;
+}
+select:hover{color:var(--acc)}
+.cats{display:flex;gap:6px 18px;flex-wrap:wrap;font-size:13.5px}
+.cats button{color:var(--mut);padding:2px 0}
+.cats button.on{color:var(--acc);text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1.5px}
+.cats button:hover{color:var(--ink)}
+.check{display:flex;align-items:center;gap:7px;font-size:13.5px;color:var(--mut);cursor:pointer}
+.check input{accent-color:var(--acc)}
+.statline{color:var(--mut);font-size:12.5px;margin:14px 0 0}
+
+/* ---------- list ---------- */
+.list{display:grid;grid-template-columns:1fr;gap:12px;margin:18px 0 0}
+@media(min-width:840px){ .list{grid-template-columns:1fr 1fr} }
+.item{
+  border:1px solid var(--line);border-radius:10px;padding:15px 17px 16px;
+  text-align:left;display:flex;flex-direction:column;gap:7px;min-width:0;
+}
+.item:hover{border-color:var(--acc)}
+.ihead{display:flex;gap:12px;align-items:center;min-width:0}
+.logo,.lfall{width:52px;height:52px;border-radius:12px;border:1px solid var(--line);background:#fff;flex:none;object-fit:contain}
+.lfall{display:inline-flex;align-items:center;justify-content:center;background:var(--soft);color:var(--mut);font-size:20px;font-weight:600}
+.mlogo{width:64px;height:64px;border-radius:14px}
+.ifoot{font-size:12px;color:var(--mut);margin-top:1px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sdot{display:inline-block;width:7px;height:7px;border-radius:50%;margin:0 5px 1px 0;vertical-align:middle}
+.s-active{background:#4C7A3F}
+.s-public{background:#3E6B8A}
+.s-acquired{background:#8A6B4F}
+.s-inactive{background:#B7AB9C}
+.item h3{margin:0;font-size:17px;font-weight:600;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item:hover h3{color:var(--acc)}
+.imeta{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--mut)}
+.item p{
+  margin:0;font-size:14.5px;color:var(--ink);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.morewrap{display:flex;justify-content:center;margin:22px 0 60px}
+.more{color:var(--mut);font-size:14px;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line)}
+.more:hover{color:var(--acc);text-decoration-color:var(--acc)}
+.empty{color:var(--mut);text-align:center;padding:70px 0;font-size:15px}
+
+/* ---------- modal ---------- */
+.overlay{position:fixed;inset:0;background:rgba(35,28,20,.35);display:none;z-index:40}
+.overlay.show{display:block}
+.modal{
+  position:fixed;z-index:50;top:5vh;left:50%;transform:translateX(-50%);
+  width:min(760px,calc(100% - 24px));max-height:90vh;overflow-y:auto;
+  background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:26px 46px 48px;display:none;
+}
+@media(max-width:640px){ .modal{padding:22px 22px 36px} }
+.modal.show{display:block}
+.mhead{display:flex;justify-content:flex-end;margin:0 -18px 2px 0}
+@media(max-width:640px){ .mhead{margin-right:-4px} }
+.mhero{display:flex;flex-direction:column;align-items:flex-start;gap:14px;margin-top:2px}
+.mhero h2{margin:0;font-size:30px;font-weight:600;line-height:1.15}
+.icnbtn.sm{width:30px;height:30px;border-radius:7px}
+.icnbtn:disabled{opacity:.3;cursor:default}
+.icnbtn:disabled:hover{color:var(--mut);border-color:var(--line)}
+.mnav{display:flex;gap:8px;align-items:center;flex:none}
+.mcount{font-size:12px;color:var(--mut);margin-right:6px}
+.mmeta{display:flex;flex-wrap:wrap;gap:7px}
+.tag{
+  display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:6px;
+  padding:4px 10px;background:var(--soft);color:var(--mut);
+  font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;line-height:1.5;
+}
+button.tag{background:var(--bg);cursor:pointer}
+button.tag:hover{border-color:var(--acc);color:var(--acc)}
+.mstory{font-size:18px;line-height:1.7;margin:24px 0 0}
+.origbox{background:var(--soft);border-radius:10px;padding:14px 18px;margin:24px 0 0;font-size:13.5px;color:var(--mut)}
+.origbox .label{display:block;margin-bottom:3px}
+.sect{margin:36px 0 0}
+.sect .label{display:block;margin-bottom:8px}
+.founders{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:560px){ .founders{grid-template-columns:1fr} }
+.fcard{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 8px;min-width:0}
+.fface,.ffall{width:48px;height:48px;border-radius:50%;object-fit:cover;flex:none;border:1px solid var(--line)}
+.ffall{display:inline-flex;align-items:center;justify-content:center;background:var(--soft);color:var(--mut);font-weight:600;font-size:13px}
+.fmeta{min-width:0;flex:1}
+.fname{font-size:13.5px;font-weight:600;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ftitle{font-size:11.5px;color:var(--mut);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fsoc{display:inline-flex;color:var(--mut)}
+.fsoc:hover{color:var(--acc)}
+.fsocs{display:flex;gap:8px;flex:none}
+.fnote{color:var(--mut);font-size:13px;margin:8px 0 0}
+.signals{display:grid;grid-template-columns:1fr 1fr;gap:4px 36px}
+@media(max-width:600px){ .signals{grid-template-columns:1fr} }
+.sig{border-top:1px solid var(--line);padding:14px 0 16px}
+.lrow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:4px}
+.vbadge{font-size:10px;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:2px 9px;font-weight:600}
+.v-high{color:#3F6B34;background:rgba(76,122,63,.13)}
+.v-medium{color:#8A6A22;background:rgba(176,138,46,.15)}
+.v-low{color:#95483C;background:rgba(166,75,59,.12)}
+.sig p{margin:0;font-size:14.5px}
+.icons{margin-top:36px;display:flex;gap:10px;flex-wrap:wrap}
+.icnbtn{display:inline-flex;width:38px;height:38px;border:1px solid var(--line);border-radius:10px;align-items:center;justify-content:center;color:var(--mut)}
+.icnbtn:hover{color:var(--acc);border-color:var(--acc)}
+
+/* ---------- dictionary ---------- */
+.dict{margin:6px 0 60px;max-width:700px}
+.dghead{margin:34px 0 4px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.dict > .dghead:first-child{margin-top:10px}
+.dterm{padding:18px 0 20px;border-top:1px solid var(--line)}
+.dghead + .dterm,.dict > .dterm:first-child{border-top:none}
+.dterm h3{margin:0;font-size:17px;font-weight:600}
+.dterm .cdef{font-size:15px;margin:6px 0 0;max-width:62ch}
+.dterm .fdef{font-size:13px;color:var(--mut);margin:7px 0 0;max-width:70ch}
+
+/* ---------- about ---------- */
+.about{margin:30px 0 80px;font-size:15.5px}
+.about h3{font-size:18px;font-weight:600;margin:32px 0 8px}
+.about p{margin:8px 0;max-width:62ch}
+.about ul{margin:8px 0;padding-left:20px;max-width:62ch}
+.about li{margin:4px 0}
+
+footer{border-top:1px solid var(--line);color:var(--mut);font-size:12.5px;padding:18px 0 50px}
+footer a{color:var(--mut)}
+.topbtn{
+  position:fixed;right:22px;bottom:22px;z-index:30;display:none;width:42px;height:42px;
+  border:1px solid var(--line);background:var(--bg);border-radius:999px;
+  align-items:center;justify-content:center;color:var(--mut);box-shadow:0 1px 4px rgba(35,28,20,.08);
+}
+.topbtn.show{display:flex}
+.topbtn:hover{color:var(--acc);border-color:var(--acc)}
+.hidden{display:none !important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="masthead">
+      <h1 class="serif">A Caveman's Guide to YC Startups</h1>
+      <p>Every Y Combinator company, explained in plain words — for people who don't speak startup jargon.</p>
+    </div>
+  </header>
+  <nav aria-label="Sections">
+    <button class="tab on" data-tab="startups">Startups</button>
+    <button class="tab" data-tab="dict">Dictionary</button>
+    <button class="tab" data-tab="about">About</button>
+  </nav>
+
+  <!-- ================= STARTUPS ================= -->
+  <section id="tab-startups">
+    <div class="controls">
+      <div class="row">
+        <input id="q" type="search" placeholder="Search" aria-label="Search startups">
+      </div>
+      <div class="cats" id="catChips" aria-label="Filter by category"></div>
+      <div class="fbar">
+        <label class="fgroup"><span class="label">Batch</span><select id="batchSel"></select></label>
+        <label class="fgroup"><span class="label">Status</span><select id="statusSel"></select></label>
+        <label class="fgroup"><span class="label">Stage</span><select id="stageSel"></select></label>
+        <label class="fgroup"><span class="label">Size</span><select id="sizeSel"></select></label>
+        <label class="fgroup"><span class="label">Region</span><select id="regionSel"></select></label>
+        <label class="fgroup"><span class="label">Sort</span><select id="sortSel">
+          <option value="new">Newest</option>
+          <option value="old">Oldest</option>
+          <option value="famous">Well-known</option>
+          <option value="name">A–Z</option>
+        </select></label>
+      </div>
+      <p class="statline" id="statline"></p>
+    </div>
+    <div class="list" id="grid"></div>
+    <p class="empty hidden" id="empty">No matches. Try fewer filters.</p>
+    <div class="morewrap"><button class="more hidden" id="moreBtn">Show more</button></div>
+  </section>
+
+  <!-- ================= DICTIONARY ================= -->
+  <section id="tab-dict" class="hidden">
+    <div class="controls">
+      <div class="row">
+        <input id="dq" type="search" placeholder="Search terms — try runway, SaaS, unicorn" aria-label="Search dictionary">
+      </div>
+      <div class="cats" id="dictCats" aria-label="Filter by topic"></div>
+      <p class="statline">Startup and tech words in plain language, with the standard meaning underneath.</p>
+    </div>
+    <div class="dict" id="dictGrid"></div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="tab-about" class="hidden">
+    <div class="about">
+      <h3 class="serif">What is this?</h3>
+      <p>A directory of every launched Y Combinator startup, rewritten without jargon. Every description is in plain words; each profile keeps the company's original wording underneath, so you can always see what they actually say. It's for anyone who reads "synergistic B2B SaaS platform" and feels nothing.</p>
+
+      <h3 class="serif">What is Y Combinator?</h3>
+      <p>Y Combinator (YC) is the best-known startup investor and school. A few times a year it picks a group of new companies, gives each some money in exchange for a small ownership stake, and coaches them for about three months. Airbnb, Stripe, Dropbox, DoorDash and Reddit all started there.</p>
+
+      <h3 class="serif">What is a batch?</h3>
+      <p>Each group that goes through YC together is a batch, named after its season and year and shown here as a short code: W26 is Winter 2026, X25 is Spring 2025, S25 is Summer 2025, F24 is Fall 2024.</p>
+
+      <h3 class="serif">The categories</h3>
+      <p>B2B — sells to other companies. Consumer — sells to regular people. Fintech — money. Healthcare — fixing humans. Industrials — machines, energy, space. Real Estate &amp; Construction. Education. Government — selling to or fixing public systems.</p>
+
+      <h3 class="serif">The signals</h3>
+      <p>Every profile shows the four things investors look at, each rated high, medium or low. For about fifty-five well-known companies these are hand-written; for everyone else they are read automatically from the data (status, stage, team size, category) and labeled as such.</p>
+      <ul>
+        <li><b>Product signal</b> — do people actually use and love it?</li>
+        <li><b>Founder signal</b> — are the founders unusually determined or experienced?</li>
+        <li><b>Competition</b> — who else is after the same thing, and can this company still win?</li>
+        <li><b>Market opportunity</b> — how big is the prize if it works?</li>
+      </ul>
+
+      <h3 class="serif">Data</h3>
+      <p>Names, batches, categories and descriptions come from the public <a href="https://github.com/yc-oss/api" target="_blank" rel="noopener">yc-oss API</a>, a daily-updated mirror of the official YC directory (snapshot: July 2026). Founder names, titles, photos and social links come from each company's public YC page. Stories and signals for about fifty-five well-known companies were written by hand.</p>
+      <p>The automatic caveman translations are simple word substitution — occasionally they come out strange. That is part of the charm. For exact wording, see the original description on any profile.</p>
+    </div>
+  </section>
+
+  <footer>
+    Data: <a href="https://github.com/yc-oss/api" target="_blank" rel="noopener">yc-oss/api</a>, a mirror of the YC directory · Not affiliated with Y Combinator
+  </footer>
+</div>
+
+<button class="topbtn" id="topBtn" title="Back to top" aria-label="Back to top"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5"/></svg></button>
+
+<div class="overlay" id="overlay"></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle"></div>
+
+<script id="data">
+window.YC = __YC_DATA__;
+window.FEATURED = __FEATURED__;
+window.DICT = __DICT__;
+window.JARGON = __JARGON__;
+window.FOUNDERS = __FOUNDERS__;
+window.SOCIALS = __SOCIALS__;
+</script>
+<script id="app">
+(function(){
+"use strict";
+var $ = function(id){ return document.getElementById(id); };
+var qsa = function(sel){ return Array.prototype.slice.call(document.querySelectorAll(sel)); };
+var esc = function(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); };
+
+/* ---------- static maps ---------- */
+var CATS = ["B2B","Consumer","Fintech","Healthcare","Industrials","Real Estate and Construction","Education","Government"];
+var CATSHORT = {"Real Estate and Construction":"Real Estate"};
+var CATCAVE = {
+  "B2B":"sells to other tribes","Consumer":"things for normal humans","Fintech":"shiny rock magic",
+  "Healthcare":"fix hurt humans","Industrials":"big machines and fire","Real Estate and Construction":"caves and building",
+  "Education":"make brain big","Government":"village chief stuff","Unspecified":"mystery tribe"
+};
+var SEASON = { "Winter":0, "Spring":1, "Summer":2, "Fall":3 };
+var CODE = { "Winter":"W", "Spring":"X", "Summer":"S", "Fall":"F" };
+function parseBatch(b){ return /^(Winter|Spring|Summer|Fall)\s+(\d{4})$/.exec(b||""); }
+function batchKey(b){
+  var m = parseBatch(b);
+  return m ? (+m[2])*10 + SEASON[m[1]] : -1;
+}
+function batchCode(b){
+  var m = parseBatch(b);
+  return m ? CODE[m[1]]+m[2].slice(2) : "—";
+}
+
+/* ---------- logos & stage ---------- */
+var BF = "https://bookface-images.s3.amazonaws.com/small_logos/";
+function logoURL(c){
+  if(!c.l) return "";
+  return c.l.charAt(0)==="/" ? "https://www.ycombinator.com"+c.l : BF+c.l;
+}
+function logoHTML(c, cls){
+  var letter = esc((c.n||"?").charAt(0).toUpperCase());
+  var u = logoURL(c);
+  if(!u) return '<span class="lfall '+cls.replace("logo","").trim()+'">'+letter+'</span>';
+  return '<img class="'+cls+'" src="'+esc(u)+'" alt="" loading="lazy" decoding="async" data-l="'+letter+'" onerror="window.lfb(this)">';
+}
+window.lfb = function(img){
+  var s = document.createElement("span");
+  s.className = "lfall" + (img.classList.contains("mlogo") ? " mlogo" : "");
+  s.textContent = img.getAttribute("data-l") || "?";
+  img.replaceWith(s);
+};
+var ICO = {
+  x:'<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.41l-5.8-7.58-6.64 7.58H.47l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93zm-1.29 19.5h2.04L6.49 3.24H4.3l13.31 17.41z"/></svg>',
+  li:'<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z"/></svg>',
+  web:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3.5 9h17M3.5 15h17"/></svg>',
+  yc:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="3"/><path d="M8 7l4 6 4-6M12 13v4.5"/></svg>',
+  prev:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5L8 12l6.5 6.5"/></svg>',
+  next:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 5.5L16 12l-6.5 6.5"/></svg>',
+  close:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+  up:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5"/></svg>'
+};
+function icnA(href, title, svg){
+  return '<a class="icnbtn" href="'+esc(href)+'" target="_blank" rel="noopener" title="'+esc(title)+'" aria-label="'+esc(title)+'">'+svg+'</a>';
+}
+window.ffb = function(img){
+  var s = document.createElement("span");
+  s.className = "ffall";
+  s.textContent = img.getAttribute("data-l") || "?";
+  img.replaceWith(s);
+};
+function founderCard(p, company){
+  var initials = p.n.split(/\s+/).map(function(w){ return w.charAt(0); }).slice(0,2).join("").toUpperCase();
+  var face = p.img
+    ? '<img class="fface" src="avatars/'+esc(p.img)+'" alt="" loading="lazy" data-l="'+esc(initials)+'" onerror="window.ffb(this)">'
+    : '<span class="ffall">'+esc(initials)+'</span>';
+  var xHref = p.x ? "https://x.com/"+p.x : "https://x.com/search?q="+encodeURIComponent('"'+p.n+'" '+company);
+  var liHref = p.li || "https://www.linkedin.com/search/results/people/?keywords="+encodeURIComponent(p.n+" "+company);
+  return '<div class="fcard">'+face+
+    '<div class="fmeta"><div class="fname">'+esc(p.n)+'</div>'+(p.t?'<div class="ftitle">'+esc(p.t)+'</div>':'')+'</div>'+
+    '<span class="fsocs">'+
+      '<a class="fsoc" href="'+esc(xHref)+'" target="_blank" rel="noopener" title="'+esc(p.n)+' on X" aria-label="'+esc(p.n)+' on X">'+ICO.x+'</a>'+
+      '<a class="fsoc" href="'+esc(liHref)+'" target="_blank" rel="noopener" title="'+esc(p.n)+' on LinkedIn" aria-label="'+esc(p.n)+' on LinkedIn">'+ICO.li+'</a>'+
+    '</span></div>';
+}
+var INDC = {};
+YC.forEach(function(c){ INDC[c.i] = (INDC[c.i]||0)+1; });
+var MARKETS = {
+  "B2B":["Every company on earth buys tools to work better. Deep river of rocks that never dries.","high"],
+  "Consumer":["Billions of normal humans to reach. Giant herd — but herd attention is hard to catch.","high"],
+  "Fintech":["Money touches every human every day. Huge prize, guarded by many rules.","high"],
+  "Healthcare":["Every human body breaks sometime. Massive market that moves slow and has many rules.","high"],
+  "Industrials":["Real machines, energy and moving atoms. Big rocks, long roads, hard science.","medium"],
+  "Real Estate and Construction":["Caves and building — enormous old industry with very little software in it.","medium"],
+  "Education":["Every brain needs growing. Big market, but schools pay slow and small.","medium"],
+  "Government":["Chiefs spend mountains of rocks every year, but saying yes takes many moons.","medium"],
+  "Unspecified":["Mystery hunting ground. Hard to judge.","medium"]
+};
+function autoSig(c, fl){
+  var t = c.t||0, p, pv;
+  if(c.st==="Public"){ p = "Tribe went public — anyone can buy pieces now. Product clearly feeds many humans."; pv = "high"; }
+  else if(c.st==="Acquired"){ p = "A bigger tribe liked the goods enough to buy the whole tribe."; pv = "medium"; }
+  else if(c.st==="Inactive"){ p = "Tribe stopped hunting. The product did not catch enough humans."; pv = "low"; }
+  else if(c.sg==="Growth"){ p = "Reached growth stage"+(t?" with "+t.toLocaleString()+" humans working":"")+". Product is feeding the tribe."; pv = "high"; }
+  else if(t>=25){ p = "Still early stage, but already "+t.toLocaleString()+" humans work here — real smoke rising."; pv = "medium"; }
+  else { p = "Young tribe"+(t?", "+t+" humans":"")+". Too early to tell if the herd will come."; pv = "low"; }
+  var nf = fl ? fl.length : 0, fn, fv;
+  if(!nf){ fn = "Chiefs not listed in the data — check the YC page."; fv = "medium"; }
+  else if(c.st==="Public"||c.st==="Acquired"){ fn = (nf===1?"One chief":nf+" chiefs")+" led this tribe all the way to an exit. Proven hunters."; fv = "high"; }
+  else if(nf===1){ fn = "One chief hunting alone. Brave — but the lonely road is harder."; fv = "medium"; }
+  else { fn = nf+" chiefs hunting together. Good pack size for a young tribe."; fv = "medium"; }
+  var n = INDC[c.i]||0, cm, cv, forest = (CATSHORT[c.i]||c.i);
+  if(n>1500){ cm = n.toLocaleString()+" YC tribes alone hunt the "+forest+" forest. Very crowded — need sharpest spear."; cv = "low"; }
+  else if(n>300){ cm = n.toLocaleString()+" YC tribes hunt the same "+forest+" forest. Busy hunting ground."; cv = "medium"; }
+  else { cm = "Only "+n.toLocaleString()+" YC tribes in the "+forest+" forest. Less crowded path."; cv = "high"; }
+  var mk = MARKETS[c.i]||MARKETS["Unspecified"];
+  return { p:[p,pv], f:[fn,fv], c:[cm,cv], m:mk };
+}
+function sigBlock(label, text, v){
+  return '<div class="sig"><div class="lrow"><span class="label">'+label+'</span>'+vbadge(v)+'</div><p class="serif">'+esc(text)+'</p></div>';
+}
+function vbadge(v){ return v ? '<span class="vbadge v-'+v+'">'+v+'</span>' : ''; }
+function teamText(c){
+  if(!c.t) return "";
+  return c.t.toLocaleString() + (c.t===1 ? " person" : " people");
+}
+function statusHTML(c){
+  if(c.st==="Active") return '<span class="sdot s-active"></span>Active · '+(c.sg==="Growth"?"growth":"early");
+  if(c.st==="Public") return '<span class="sdot s-public"></span>Exited · public';
+  if(c.st==="Acquired") return '<span class="sdot s-acquired"></span>Exited · acquired';
+  return '<span class="sdot s-inactive"></span>Inactive';
+}
+
+/* ---------- featured map ---------- */
+var FEAT = {};
+FEATURED.forEach(function(f, i){ f._idx = i; FEAT[f.name.toLowerCase()+"|"+f.batch] = f; });
+
+/* ---------- cavemanizer ---------- */
+var RULES = JARGON.slice().sort(function(a,b){ return b[0].length - a[0].length; }).map(function(p){
+  return [ new RegExp("\\b"+p[0].replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"\\b","gi"), p[1] ];
+});
+var caveCache = {};
+function cavemanize(s){
+  if(!s) return "This tribe keeps its plans quiet.";
+  if(caveCache[s]) return caveCache[s];
+  var out = s;
+  for(var i=0;i<RULES.length;i++){ out = out.replace(RULES[i][0], RULES[i][1]); }
+  out = out.charAt(0).toUpperCase() + out.slice(1);
+  caveCache[s] = out;
+  return out;
+}
+/* Build a readable caveman story for companies without a hand-written one:
+   one-liner first, then the meatiest sentences of the long description,
+   skipping marketing/fundraising boilerplate. */
+var storyCache = {};
+function composeStory(c){
+  var key = c.n+"|"+c.b;
+  if(storyCache[key]) return storyCache[key];
+  var dot = function(s){ return /[.!?…]$/.test(s) ? s : s + "."; };
+  var one = cavemanize(c.o || "");
+  var parts = c.o ? [dot(one)] : [];
+  var used = one.length;
+  var skip = /backed by|investor|venture|series [a-e]\b|valuation|we'?re hiring|we are hiring|join (us|our)|apply (now|today)|founded in \d|y ?combinator|alumni|alums\b|previously (worked|built|at)|prior to|forbes|techcrunch/i;
+  var norm = function(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g," ").trim(); };
+  var oneN = norm(c.o || "");
+  var sents = (c.d || "").match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g) || [];
+  for(var i=0; i<sents.length && used<360 && parts.length<3; i++){
+    var s = sents[i].trim();
+    if(s.length<30 || skip.test(s)) continue;
+    if(oneN && norm(s).indexOf(oneN)!==-1) continue;
+    var cv = dot(cavemanize(s));
+    parts.push(cv);
+    used += cv.length;
+  }
+  var out = parts.join(" ").trim() || "This tribe keeps its plans quiet.";
+  storyCache[key] = out;
+  return out;
+}
+
+/* ---------- state ---------- */
+var state = { q:"", cat:"All", batch:"All", stage:"All", status:"All", size:"All", region:"All", sort:"new", shown:36 };
+var PAGE = 36;
+var tab = "startups";
+
+/* ---------- prep data ---------- */
+var SLUG = {};
+YC.forEach(function(c){
+  c._bk = batchKey(c.b);
+  c._feat = FEAT[c.n.toLowerCase()+"|"+c.b] || null;
+  var s = (c.n+" "+batchCode(c.b)).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+  if(SLUG[s]){ var k = 2; while(SLUG[s+"-"+k]) k++; s = s+"-"+k; }
+  SLUG[s] = c; c._slug = s;
+});
+
+/* ---------- controls ---------- */
+var batches = {};
+YC.forEach(function(c){ batches[c.b] = (batches[c.b]||0)+1; });
+var batchList = Object.keys(batches).sort(function(a,b){ return batchKey(b)-batchKey(a); });
+var bSel = $("batchSel");
+bSel.innerHTML = '<option value="All">All · '+YC.length.toLocaleString()+'</option>' + batchList.map(function(b){
+  return '<option value="'+esc(b)+'">'+esc(batchCode(b))+' · '+esc(b)+' · '+batches[b]+'</option>';
+}).join("");
+
+$("catChips").innerHTML =
+  '<button class="on" data-cat="All">All</button>' +
+  CATS.map(function(c){
+    return '<button data-cat="'+esc(c)+'">'+esc(CATSHORT[c]||c)+'</button>';
+  }).join("");
+
+var stC = {Active:0, Exited:0, Public:0, Acquired:0, Inactive:0, Early:0, Growth:0};
+YC.forEach(function(c){
+  if(c.st==="Active") stC.Active++;
+  else if(c.st==="Public"){ stC.Public++; stC.Exited++; }
+  else if(c.st==="Acquired"){ stC.Acquired++; stC.Exited++; }
+  else stC.Inactive++;
+  if(c.sg==="Growth") stC.Growth++; else stC.Early++;
+});
+$("statusSel").innerHTML =
+  '<option value="All">Any</option>' +
+  '<option value="Active">Active · '+stC.Active.toLocaleString()+'</option>' +
+  '<option value="Exited">Exited · '+stC.Exited.toLocaleString()+'</option>' +
+  '<option value="Public">Public · '+stC.Public.toLocaleString()+'</option>' +
+  '<option value="Acquired">Acquired · '+stC.Acquired.toLocaleString()+'</option>' +
+  '<option value="Inactive">No longer active · '+stC.Inactive.toLocaleString()+'</option>';
+$("stageSel").innerHTML =
+  '<option value="All">Any</option>' +
+  '<option value="Early">Early · '+stC.Early.toLocaleString()+'</option>' +
+  '<option value="Growth">Growth · '+stC.Growth.toLocaleString()+'</option>';
+
+/* size + region facets */
+var SIZEB = [["1–10",1,10],["11–50",11,50],["51–200",51,200],["201–1,000",201,1000],["1,000+",1001,1e9]];
+function sizeBucket(t){
+  for(var i=0;i<SIZEB.length;i++){ if(t>=SIZEB[i][1] && t<=SIZEB[i][2]) return SIZEB[i][0]; }
+  return "";
+}
+var CTRY = {};
+YC.forEach(function(c){
+  c._ctry = c.h ? c.h.split(",").pop().trim() : "";
+  c._size = sizeBucket(c.t||0);
+  if(c._ctry) CTRY[c._ctry] = (CTRY[c._ctry]||0)+1;
+});
+var szC = {};
+YC.forEach(function(c){ if(c._size) szC[c._size] = (szC[c._size]||0)+1; });
+$("sizeSel").innerHTML = '<option value="All">Any</option>' + SIZEB.map(function(b){
+  return '<option value="'+b[0]+'">'+b[0]+' people · '+(szC[b[0]]||0).toLocaleString()+'</option>';
+}).join("");
+var regionList = Object.keys(CTRY).sort(function(a,b){ return CTRY[b]-CTRY[a]; });
+var REGMAIN = regionList.filter(function(r){ return CTRY[r] >= 10; });
+var REGSET = {}; REGMAIN.forEach(function(r){ REGSET[r] = true; });
+var otherCount = regionList.reduce(function(s,r){ return REGSET[r] ? s : s+CTRY[r]; }, 0);
+$("regionSel").innerHTML = '<option value="All">Any</option>' + REGMAIN.map(function(r){
+  return '<option value="'+esc(r)+'">'+esc(r)+' · '+CTRY[r].toLocaleString()+'</option>';
+}).join("") + (otherCount ? '<option value="Other">Other · '+otherCount.toLocaleString()+'</option>' : '');
+
+/* ---------- filtering ---------- */
+function filtered(){
+  var q = state.q.toLowerCase();
+  var arr = YC.filter(function(c){
+    if(state.cat!=="All" && c.i!==state.cat) return false;
+    if(state.batch!=="All" && c.b!==state.batch) return false;
+    if(state.stage!=="All" && (c.sg||"Early")!==state.stage) return false;
+    if(state.status==="Exited"){ if(c.st!=="Public" && c.st!=="Acquired") return false; }
+    else if(state.status!=="All" && c.st!==state.status) return false;
+    if(state.size!=="All" && c._size!==state.size) return false;
+    if(state.region==="Other"){ if(!c._ctry || REGSET[c._ctry]) return false; }
+    else if(state.region!=="All" && c._ctry!==state.region) return false;
+    if(q && (c.n+" "+(c.o||"")).toLowerCase().indexOf(q)===-1) return false;
+    return true;
+  });
+  if(state.sort==="famous") arr.sort(function(a,b){
+    var fa = a._feat ? a._feat._idx : 1e9, fb = b._feat ? b._feat._idx : 1e9;
+    return fa-fb || (b.top?1:0)-(a.top?1:0) || b._bk-a._bk || a.n.localeCompare(b.n);
+  });
+  else if(state.sort==="new") arr.sort(function(a,b){ return b._bk-a._bk || (b.top?1:0)-(a.top?1:0) || a.n.localeCompare(b.n); });
+  else if(state.sort==="old") arr.sort(function(a,b){ return a._bk-b._bk || a.n.localeCompare(b.n); });
+  else if(state.sort==="name") arr.sort(function(a,b){ return a.n.localeCompare(b.n); });
+  return arr;
+}
+
+/* ---------- render list ---------- */
+function itemHTML(c, idx){
+  var desc = c._feat ? c._feat.story : cavemanize(c.o);
+  return '<button class="item" data-i="'+idx+'">' +
+    '<div class="ihead">' + logoHTML(c, "logo") + '<h3 class="serif">'+esc(c.n)+'</h3></div>' +
+    '<div class="imeta">'+esc(CATSHORT[c.i]||c.i)+' · '+esc(batchCode(c.b))+' · '+statusHTML(c)+'</div>' +
+    '<p class="serif">'+esc(desc)+'</p>' +
+    (c.h||c.t ? '<div class="ifoot">'+esc([c.h, teamText(c)].filter(Boolean).join(" · "))+'</div>' : '') +
+  '</button>';
+}
+var current = [];
+function render(){
+  current = filtered();
+  var slice = current.slice(0, state.shown);
+  $("grid").innerHTML = slice.map(function(c, i){ return itemHTML(c, i); }).join("");
+  $("empty").classList.toggle("hidden", current.length>0);
+  var left = current.length - slice.length;
+  $("moreBtn").classList.toggle("hidden", left<=0);
+  if(left>0) $("moreBtn").textContent = "Show more · "+left.toLocaleString()+" left";
+  $("statline").textContent = slice.length.toLocaleString()+" of "+current.length.toLocaleString()+" startups";
+}
+
+function syncControls(){
+  $("q").value = state.q;
+  bSel.value = state.batch;
+  if(bSel.value!==state.batch){ state.batch = "All"; bSel.value = "All"; }
+  $("sortSel").value = state.sort;
+  if($("sortSel").value!==state.sort){ state.sort = "new"; $("sortSel").value = "new"; }
+  $("stageSel").value = state.stage;
+  if($("stageSel").value!==state.stage){ state.stage = "All"; $("stageSel").value = "All"; }
+  $("statusSel").value = state.status;
+  if($("statusSel").value!==state.status){ state.status = "All"; $("statusSel").value = "All"; }
+  $("sizeSel").value = state.size;
+  if($("sizeSel").value!==state.size){ state.size = "All"; $("sizeSel").value = "All"; }
+  $("regionSel").value = state.region;
+  if($("regionSel").value!==state.region){ state.region = "All"; $("regionSel").value = "All"; }
+  qsa("#catChips button").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-cat")===state.cat); });
+}
+function showTab(t){
+  tab = t;
+  qsa(".tab").forEach(function(x){ x.classList.toggle("on", x.getAttribute("data-tab")===t); });
+  ["startups","dict","about"].forEach(function(id){ $("tab-"+id).classList.toggle("hidden", id!==t); });
+}
+/* back button / back-swipe closes an open profile; the URL never changes */
+window.addEventListener("popstate", function(){
+  if($("modal").classList.contains("show")){ modalHist = false; hideModal(); }
+});
+if(location.hash){
+  try{ history.replaceState(null, "", location.pathname); }catch(e){}
+}
+
+/* ---------- modal ---------- */
+var modalHist = false, openIdx = -1, lastFocus = null;
+function openModal(c, idx, replace){
+  openIdx = idx;
+  if(!lastFocus) lastFocus = document.activeElement;
+  var f = c._feat;
+  var meta =
+    '<button class="tag mlink" data-cat="'+esc(c.i)+'" title="Show all '+esc(CATSHORT[c.i]||c.i)+' startups">'+esc(CATSHORT[c.i]||c.i)+(CATCAVE[c.i]?' — '+esc(CATCAVE[c.i]):'')+'</button>' +
+    '<button class="tag mlink" data-batch="'+esc(c.b)+'" title="Show the '+esc(c.b)+' batch">'+esc(batchCode(c.b))+'</button>' +
+    '<span class="tag">'+statusHTML(c)+'</span>' +
+    (c.h ? '<button class="tag mlink" data-region="'+esc(c._ctry)+'" title="Show startups in '+esc(c._ctry||"this region")+'">'+esc(c.h)+'</button>' : '') +
+    (c.t ? '<span class="tag">'+esc(teamText(c))+'</span>' : '');
+  var h = '<div class="mhead"><div class="mnav">' +
+      (idx>=0 ? '<span class="mcount">'+(idx+1).toLocaleString()+' / '+current.length.toLocaleString()+'</span>' : '') +
+      '<button class="icnbtn sm" id="mPrev"'+(idx>0?'':' disabled')+' title="Previous" aria-label="Previous">'+ICO.prev+'</button>' +
+      '<button class="icnbtn sm" id="mNext"'+(idx>=0 && idx<current.length-1?'':' disabled')+' title="Next" aria-label="Next">'+ICO.next+'</button>' +
+      '<button class="icnbtn sm" id="mClose" title="Close" aria-label="Close">'+ICO.close+'</button>' +
+    '</div></div>';
+  h += '<div class="mhero">'+logoHTML(c, "logo mlogo")+'<h2 class="serif" id="mTitle">'+esc(c.n)+'</h2><div class="mmeta">'+meta+'</div></div>';
+  var story = f ? f.story : composeStory(c);
+  h += '<p class="mstory serif">'+esc(story)+'</p>';
+  h += '<div class="origbox"><span class="label">Original description</span>'+esc(c.o||"—")+'</div>';
+  var fl = FOUNDERS[c.n.toLowerCase()+"|"+c.b] || (f ? f.founders : null);
+  if(fl && fl.length){
+    h += '<div class="sect"><span class="label">Founders</span><div class="founders">' +
+      fl.map(function(p){ return founderCard(p, c.n); }).join("") + '</div></div>';
+  } else {
+    h += '<div class="sect"><span class="label">Founders</span>' +
+      '<p class="fnote">Not listed in the data — see the <a href="'+esc(c.u)+'" target="_blank" rel="noopener">official YC page</a>.</p></div>';
+  }
+  if(f){
+    var v = f.v || {};
+    h += '<div class="sect"><span class="label">Signals</span><div class="signals">' +
+      sigBlock("Product", f.sig.p, v.p) +
+      sigBlock("Founders", f.sig.f, v.f) +
+      sigBlock("Competition", f.sig.c, v.c) +
+      sigBlock("Market opportunity", f.sig.m, v.m) +
+    '</div></div>';
+  } else {
+    var a = autoSig(c, fl);
+    h += '<div class="sect"><span class="label">Signals</span><div class="signals">' +
+      sigBlock("Product", a.p[0], a.p[1]) +
+      sigBlock("Founders", a.f[0], a.f[1]) +
+      sigBlock("Competition", a.c[0], a.c[1]) +
+      sigBlock("Market opportunity", a.m[0], a.m[1]) +
+    '</div><p class="fnote">Read automatically from the data — status, stage, team size and category. Not human judgment.</p></div>';
+  }
+  var so = SOCIALS[c.n.toLowerCase()+"|"+c.b] || {};
+  h += '<div class="icons">' +
+       (c.w ? icnA(c.w, "Website", ICO.web) : '') +
+       (so.x ? icnA(so.x, c.n+" on X", ICO.x) : '') +
+       (so.li ? icnA(so.li, c.n+" on LinkedIn", ICO.li) : '') +
+       icnA(c.u, "Official YC page", ICO.yc) +
+       '</div>';
+  $("modal").innerHTML = h;
+  $("modal").classList.add("show");
+  $("overlay").classList.add("show");
+  $("modal").scrollTop = 0;
+  document.body.style.overflow = "hidden";
+  $("mClose").focus();
+  if(!replace && !modalHist){
+    try{ history.pushState({profile:1}, ""); modalHist = true; }catch(e){}
+  }
+}
+function hideModal(){
+  $("modal").classList.remove("show");
+  $("overlay").classList.remove("show");
+  document.body.style.overflow = "";
+  openIdx = -1;
+  if(lastFocus && lastFocus.focus){ try{ lastFocus.focus(); }catch(e){} }
+  lastFocus = null;
+}
+function closeModal(){
+  if(modalHist){ modalHist = false; history.back(); }
+  else { hideModal(); }
+}
+function navModal(delta){
+  var ni = openIdx + delta;
+  if(openIdx<0 || ni<0 || ni>=current.length) return;
+  openModal(current[ni], ni, true);
+}
+$("overlay").addEventListener("click", closeModal);
+$("modal").addEventListener("click", function(e){
+  var t = e.target;
+  if(t.id==="mClose"){ closeModal(); return; }
+  if(t.id==="mPrev"){ navModal(-1); return; }
+  if(t.id==="mNext"){ navModal(1); return; }
+  var l = t.closest(".mlink");
+  if(l){
+    if(l.hasAttribute("data-cat")) state.cat = l.getAttribute("data-cat");
+    if(l.hasAttribute("data-batch")) state.batch = l.getAttribute("data-batch");
+    if(l.hasAttribute("data-region")){
+      var r = l.getAttribute("data-region");
+      state.region = REGSET[r] ? r : (r ? "Other" : "All");
+    }
+    state.shown = PAGE;
+    modalHist = false;
+    syncControls(); render();
+    hideModal();
+    window.scrollTo({top:0});
+  }
+});
+document.addEventListener("keydown", function(e){
+  var m = $("modal");
+  if(!m.classList.contains("show")) return;
+  if(e.key==="Escape"){ closeModal(); return; }
+  if(e.key==="ArrowRight"){ navModal(1); return; }
+  if(e.key==="ArrowLeft"){ navModal(-1); return; }
+  if(e.key==="Tab"){
+    var f = m.querySelectorAll("button:not([disabled]), a[href]");
+    if(!f.length) return;
+    var first = f[0], last = f[f.length-1];
+    if(e.shiftKey && document.activeElement===first){ e.preventDefault(); last.focus(); }
+    else if(!e.shiftKey && document.activeElement===last){ e.preventDefault(); first.focus(); }
+  }
+});
+$("grid").addEventListener("click", function(e){
+  var el = e.target.closest(".item");
+  if(el) openModal(current[+el.getAttribute("data-i")], +el.getAttribute("data-i"), false, false);
+});
+
+/* ---------- dictionary ---------- */
+var DGROUPS = ["Basics","Raising money","Money & metrics","Business models","Building product","Tech words","Exits"];
+var dcat = "All";
+$("dictCats").innerHTML =
+  '<button class="on" data-g="All">All</button>' +
+  DGROUPS.map(function(g){ return '<button data-g="'+esc(g)+'">'+esc(g)+'</button>'; }).join("");
+$("dictCats").addEventListener("click", function(e){
+  var el = e.target.closest("button"); if(!el) return;
+  dcat = el.getAttribute("data-g");
+  qsa("#dictCats button").forEach(function(b){ b.classList.toggle("on", b===el); });
+  renderDict($("dq").value.trim());
+});
+function dtermHTML(d){
+  return '<div class="dterm"><h3 class="serif">'+esc(d.t)+'</h3>' +
+    '<p class="cdef serif">'+esc(d.c)+'</p>' +
+    '<p class="fdef">Standard meaning: '+esc(d.f)+'</p></div>';
+}
+function renderDict(q){
+  q = (q||"").toLowerCase();
+  var arr = DICT.filter(function(d){
+    if(dcat!=="All" && d.g!==dcat) return false;
+    return !q || (d.t+" "+d.f+" "+d.c).toLowerCase().indexOf(q)!==-1;
+  });
+  var h;
+  if(dcat==="All"){
+    h = DGROUPS.map(function(g){
+      var terms = arr.filter(function(d){ return d.g===g; });
+      if(!terms.length) return "";
+      return '<div class="dghead label">'+esc(g)+'</div>' + terms.map(dtermHTML).join("");
+    }).join("");
+  } else {
+    h = arr.map(dtermHTML).join("");
+  }
+  $("dictGrid").innerHTML = h || '<p class="empty">No matching terms.</p>';
+}
+
+/* ---------- events ---------- */
+function applyFilters(){
+  state.shown = PAGE;
+  render();
+  if(window.scrollY > 260) window.scrollTo({top:0});
+}
+var debounce;
+$("q").addEventListener("input", function(e){
+  clearTimeout(debounce);
+  debounce = setTimeout(function(){ state.q = e.target.value.trim(); applyFilters(); }, 120);
+});
+$("dq").addEventListener("input", function(e){ renderDict(e.target.value.trim()); });
+$("batchSel").addEventListener("change", function(e){ state.batch = e.target.value; applyFilters(); });
+$("stageSel").addEventListener("change", function(e){ state.stage = e.target.value; applyFilters(); });
+$("statusSel").addEventListener("change", function(e){ state.status = e.target.value; applyFilters(); });
+$("sizeSel").addEventListener("change", function(e){ state.size = e.target.value; applyFilters(); });
+$("regionSel").addEventListener("change", function(e){ state.region = e.target.value; applyFilters(); });
+$("sortSel").addEventListener("change", function(e){ state.sort = e.target.value; applyFilters(); });
+$("catChips").addEventListener("click", function(e){
+  var el = e.target.closest("button"); if(!el) return;
+  state.cat = el.getAttribute("data-cat");
+  qsa("#catChips button").forEach(function(ch){ ch.classList.toggle("on", ch===el); });
+  applyFilters();
+});
+$("moreBtn").addEventListener("click", function(){ state.shown += PAGE*2; render(); });
+
+/* tabs */
+qsa(".tab").forEach(function(t){
+  t.addEventListener("click", function(){
+    showTab(t.getAttribute("data-tab"));
+    window.scrollTo({top:0});
+  });
+});
+
+/* back to top */
+window.addEventListener("scroll", function(){
+  $("topBtn").classList.toggle("show", window.scrollY > 600);
+}, {passive:true});
+$("topBtn").addEventListener("click", function(){
+  var rm = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  window.scrollTo({top:0, behavior: rm ? "auto" : "smooth"});
+});
+
+/* ---------- go ---------- */
+render();
+renderDict("");
+})();
+</script>
+</body>
+</html>
