@@ -3,15 +3,11 @@
 A single-file website that explains every YC startup in simple caveman words —
 for people who don't speak tech/business jargon.
 
-**To use it: just open `index.html` in any browser.** No server, no install. Works offline
-(company logos and founder photos need internet the first time; founder photos live in `avatars/`).
-
 ## What's inside
 
 - **All 6,020 launched YC companies** (from the public [yc-oss API](https://github.com/yc-oss/api),
-  a daily-updated mirror of the official YC directory — snapshot July 2026).
-- **Filters**: category (B2B, Fintech, Healthcare, Government, …), batch (all 50 seasons,
-  with quick links to the newest ones), search, sort. In caveman mode batches become
+  a daily-updated mirror of the official YC directory).
+- **Filters**: category (B2B, Fintech, Healthcare, Government, …), batch (all 50 seasons), search, sort. In caveman mode batches become
   seasons (Winter 2012 → cold season 2012).
 
 ## Files
